@@ -1,0 +1,51 @@
+.hero {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+  padding: 20px 24px;
+  background: var(--paper-raised);
+  border: 1px solid var(--rule);
+  border-left: 3px solid var(--accent-approve);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow-card);
+}
+
+.number {
+  font-family: var(--font-display);
+  font-size: 64px;
+  line-height: 1;
+  font-weight: 500;
+  color: var(--accent-approve);
+}
+
+.number sup {
+  font-size: 24px;
+  top: -0.5em;
+}
+
+.copy {
+  max-width: 420px;
+}
+
+.headline {
+  font-family: var(--font-body);
+  font-weight: 600;
+  font-size: 18px;
+  margin: 0 0 6px;
+  color: var(--ink);
+}
+
+.caption {
+  color: var(--ink-soft);
+  font-size: 14px;
+  line-height: 1.55;
+  margin: 0;
+}
+
+@media (max-width: 640px) {
+  .hero {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+  }
+}

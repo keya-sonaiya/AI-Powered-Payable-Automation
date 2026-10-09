@@ -1,0 +1,10 @@
+.viewAllRow {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  margin-bottom: 16px;
+}
+
+.viewAll {
+  font-size: 13.5px;
+}

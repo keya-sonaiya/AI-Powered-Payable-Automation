@@ -1,0 +1,97 @@
+.appShell {
+  display: flex;
+  min-height: 100vh;
+}
+
+.sidebar {
+  width: var(--sidebar-width);
+  flex-shrink: 0;
+  background: var(--paper-sunken);
+  border-right: 1px solid var(--rule);
+  padding: 24px 20px;
+  display: flex;
+  flex-direction: column;
+  position: sticky;
+  top: 0;
+  height: 100vh;
+}
+
+.brand {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-family: var(--font-display);
+  font-size: 15px;
+  font-weight: 600;
+  color: var(--ink);
+  margin-bottom: 28px;
+}
+
+.brandDot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: var(--accent-primary);
+}
+
+.nav {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  font-size: 14px;
+}
+
+.nav a {
+  color: var(--ink-soft);
+  padding: 9px 10px;
+  border-radius: var(--radius);
+  border-left: 2px solid transparent;
+}
+
+.nav a:hover {
+  color: var(--ink);
+  text-decoration: none;
+  background: var(--paper-raised);
+}
+
+.nav a[data-active="true"] {
+  color: var(--ink);
+  background: var(--paper-raised);
+  border-left: 2px solid var(--accent-primary);
+  box-shadow: var(--shadow-card);
+}
+
+.sidebarNote {
+  margin-top: auto;
+  padding-top: 20px;
+  border-top: 1px solid var(--rule);
+  color: var(--ink-faint);
+  font-size: 12px;
+  line-height: 1.6;
+}
+
+.main {
+  flex: 1;
+  min-width: 0;
+}
+
+@media (max-width: 860px) {
+  .appShell {
+    flex-direction: column;
+  }
+  .sidebar {
+    width: 100%;
+    height: auto;
+    position: static;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 16px;
+  }
+  .nav {
+    flex-direction: row;
+  }
+  .sidebarNote {
+    display: none;
+  }
+}

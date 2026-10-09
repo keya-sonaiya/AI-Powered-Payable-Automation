@@ -1,0 +1,113 @@
+version: "3.9"
+
+services:
+  postgres:
+    image: postgres:16-alpine
+    container_name: ap-agent-postgres
+    restart: unless-stopped
+    environment:
+      POSTGRES_USER: ${POSTGRES_USER:-apagent}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-apagent}
+      POSTGRES_DB: ${POSTGRES_DB:-ap_agent_demo}
+    ports:
+      - "5432:5432"
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U ${POSTGRES_USER:-apagent} -d ${POSTGRES_DB:-ap_agent_demo}"]
+      interval: 5s
+      timeout: 5s
+      retries: 10
+    networks:
+      - ap-agent-net
+
+  backend:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+    container_name: ap-agent-backend
+    restart: unless-stopped
+    depends_on:
+      postgres:
+        condition: service_healthy
+    environment:
+      DATABASE_URL: ${DATABASE_URL:-postgresql://apagent:apagent@postgres:5432/ap_agent_demo}
+      OLLAMA_HOST: ${OLLAMA_HOST:-https://ollama.com}
+      OLLAMA_API_KEY: ${OLLAMA_API_KEY}
+      OLLAMA_MAX_CONCURRENCY: ${OLLAMA_MAX_CONCURRENCY:-1}
+      OLLAMA_MAX_RETRIES: ${OLLAMA_MAX_RETRIES:-3}
+      OLLAMA_RETRY_DELAY_SECONDS: ${OLLAMA_RETRY_DELAY_SECONDS:-2}
+      INGEST_MAX_CONCURRENCY: ${INGEST_MAX_CONCURRENCY:-1}
+      FRONTEND_ORIGIN: ${FRONTEND_ORIGIN:-http://localhost:3000}
+      CHROMA_PERSIST_DIR: ${CHROMA_PERSIST_DIR:-/app/chroma_data}
+      MOCK_DATA_PATH: ${MOCK_DATA_PATH:-/mock_data/output/mock_dataset.json}
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./backend:/app
+      - ./mock_data:/mock_data
+    networks:
+      - ap-agent-net
+    # Phase 2: main.py now registers all routers, wires CORS, and runs
+    # create_all() + a mock-data seed on startup. Serves real endpoints.
+
+  frontend:
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile
+      args:
+        NEXT_PUBLIC_API_URL: ${NEXT_PUBLIC_API_URL:-http://localhost:8000}
+    container_name: ap-agent-frontend
+    restart: unless-stopped
+    depends_on:
+      - backend
+    environment:
+      # Server-side (SSR) fetches run inside this container, on the compose
+      # network, so they use the backend's service name — NOT localhost.
+      API_INTERNAL_URL: http://backend:8000
+      # Baked into the browser bundle at build time (see frontend/Dockerfile's
+      # ARG) — kept here too so `docker compose config` shows the value in use.
+      NEXT_PUBLIC_API_URL: ${NEXT_PUBLIC_API_URL:-http://localhost:8000}
+    ports:
+      - "3000:3000"
+    networks:
+      - ap-agent-net
+    # Phase 3: full Next.js dashboard (App Router, TypeScript, Recharts).
+    # Production build (`next build` + `next start`), not the dev server —
+    # there's no source volume mount here (unlike backend), so a live-reload
+    # dev server would gain nothing.
+
+  n8n:
+    image: n8nio/n8n:latest
+    container_name: ap-agent-n8n
+    restart: unless-stopped
+    environment:
+      N8N_BASIC_AUTH_ACTIVE: ${N8N_BASIC_AUTH_ACTIVE:-false}
+      N8N_HOST: ${N8N_HOST:-localhost}
+      N8N_PORT: 5678
+      N8N_PROTOCOL: http
+      N8N_RESTRICT_FILE_ACCESS_TO: /mock_data
+      WEBHOOK_URL: ${N8N_WEBHOOK_URL:-http://localhost:5678/}
+      GENERIC_TIMEZONE: ${GENERIC_TIMEZONE:-Asia/Kolkata}
+    ports:
+      - "5678:5678"
+    volumes:
+      - n8n_data:/home/node/.n8n
+      - ./n8n/workflows:/workflows
+      - ./mock_data:/mock_data:ro
+    depends_on:
+      - backend
+    networks:
+      - ap-agent-net
+    # NOTE: n8n is containerized here (resolves the original spec's contradiction).
+    # It only orchestrates invoice intake -> POST /ingest; no business logic lives here.
+    # ./mock_data is mounted read-only so the intake workflow's Read Binary File
+    # node can load mock_dataset.json directly (Phase 2 addition).
+
+volumes:
+  pgdata:
+  n8n_data:
+
+networks:
+  ap-agent-net:
+    driver: bridge

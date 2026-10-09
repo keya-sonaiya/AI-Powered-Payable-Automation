@@ -1,0 +1,26 @@
+{
+  "name": "ap-agent-demo-frontend",
+  "version": "0.3.0",
+  "private": true,
+  "description": "AP Agent Demo dashboard — Next.js 14 (App Router, TypeScript), Recharts. Calls FastAPI only; never n8n or Ollama directly.",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "next": "14.2.13",
+    "react": "18.3.1",
+    "react-dom": "18.3.1",
+    "recharts": "2.12.7"
+  },
+  "devDependencies": {
+    "typescript": "5.6.2",
+    "@types/react": "18.3.5",
+    "@types/react-dom": "18.3.0",
+    "@types/node": "22.5.5",
+    "eslint": "8.57.1",
+    "eslint-config-next": "14.2.13"
+  }
+}

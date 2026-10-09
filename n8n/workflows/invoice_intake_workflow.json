@@ -1,0 +1,169 @@
+{
+  "name": "AP Agent Demo - Invoice Intake",
+  "nodes": [
+    {
+      "parameters": {
+        "content": "## Assumptions to verify on import\n- \"Extract From File\" (fromJson) is assumed to output the parsed dataset under `data`. If your n8n version places it elsewhere, adjust the first line of the Code node.\n- Backend is reached at `http://backend:8000/ingest` via the shared `ap-agent-net` docker network (service name `backend`, per docker-compose.yml) — not localhost.\n- This simulates ALL THREE intake channels (email/portal/EDI) as one batch replay of the mock dataset, since there's no real inbox/portal/EDI feed to poll in a self-hosted demo.\n- The Loop Over Items node deliberately sends one invoice at a time: the hosted Ollama API rate-limits a parallel 200-invoice replay.",
+        "height": 260,
+        "width": 380
+      },
+      "id": "b1a1c2d3-0001-4a11-9a11-000000000001",
+      "name": "Sticky Note",
+      "type": "n8n-nodes-base.stickyNote",
+      "typeVersion": 1,
+      "position": [-200, 0]
+    },
+    {
+      "parameters": {
+        "batchSize": 1,
+        "options": {}
+      },
+      "id": "b1a1c2d3-0007-4a11-9a11-000000000007",
+      "name": "Process one invoice at a time",
+      "type": "n8n-nodes-base.splitInBatches",
+      "typeVersion": 3,
+      "position": [760, 320]
+    },
+    {
+      "parameters": {
+        "rule": {
+          "interval": [
+            {
+              "field": "hours",
+              "hoursInterval": 1
+            }
+          ]
+        }
+      },
+      "id": "b1a1c2d3-0002-4a11-9a11-000000000002",
+      "name": "Schedule Trigger",
+      "type": "n8n-nodes-base.scheduleTrigger",
+      "typeVersion": 1.2,
+      "position": [-200, 320]
+    },
+    {
+      "parameters": {
+        "filePath": "/mock_data/output/mock_dataset.json"
+      },
+      "id": "b1a1c2d3-0003-4a11-9a11-000000000003",
+      "name": "Read mock_dataset.json",
+      "type": "n8n-nodes-base.readBinaryFile",
+      "typeVersion": 1,
+      "position": [40, 320]
+    },
+    {
+      "parameters": {
+        "operation": "fromJson",
+        "options": {
+          "destinationKey": "data"
+        }
+      },
+      "id": "b1a1c2d3-0004-4a11-9a11-000000000004",
+      "name": "Parse JSON",
+      "type": "n8n-nodes-base.extractFromFile",
+      "typeVersion": 1,
+      "position": [280, 320]
+    },
+    {
+      "parameters": {
+        "jsCode": "// Simulates OCR: renders each mock invoice's structured fields into a\n// plain-text invoice document, the way a real scanned/emailed invoice\n// would arrive as raw text before Tesseract + the LLM ever see it. This\n// is what lets the demo exercise the REAL /ingest pipeline (OCR-shaped\n// text in, LLM-structured JSON out) instead of just replaying already-\n// structured JSON straight into Postgres.\n//\n// See this node's Sticky Note if `data` isn't where your n8n version puts\n// the parsed JSON from the \"Extract From File\" node.\nconst raw = $input.first().json;\nconst dataset = typeof raw.data === 'string' ? JSON.parse(raw.data) : (raw.data || raw);\n\nconst vendorsById = Object.fromEntries(\n  (dataset.vendors || []).map((v) => [v.id, v])\n);\n\nconst results = [];\nfor (const inv of dataset.invoices || []) {\n  const vendor = vendorsById[inv.vendor_id] || {};\n  const rawText = [\n    'INVOICE',\n    `Invoice Number: ${inv.invoice_number}`,\n    `Vendor: ${vendor.name || 'UNKNOWN VENDOR'}`,\n    `PO Number: ${inv.po_number || ''}`,\n    `Amount: $${inv.amount}`,\n    `Quantity: ${inv.quantity}`,\n    `Unit Price: $${inv.unit_price}`,\n  ].join('\\n');\n\n  results.push({\n    json: {\n      raw_text: rawText,\n      _scenario: inv._scenario, // debugging only, not sent to /ingest\n    },\n  });\n}\n\nreturn results;"
+      },
+      "id": "b1a1c2d3-0005-4a11-9a11-000000000005",
+      "name": "Render invoice as OCR text",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [520, 320]
+    },
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "http://backend:8000/ingest",
+        "sendBody": true,
+        "specifyBody": "json",
+        "jsonBody": "={{ { \"raw_text\": $json.raw_text } }}",
+        "options": {
+          "timeout": 60000
+        }
+      },
+      "id": "b1a1c2d3-0006-4a11-9a11-000000000006",
+      "name": "POST /ingest",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [1000, 320]
+    }
+  ],
+  "connections": {
+    "Schedule Trigger": {
+      "main": [
+        [
+          {
+            "node": "Read mock_dataset.json",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Read mock_dataset.json": {
+      "main": [
+        [
+          {
+            "node": "Parse JSON",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Parse JSON": {
+      "main": [
+        [
+          {
+            "node": "Render invoice as OCR text",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Render invoice as OCR text": {
+      "main": [
+        [
+          {
+            "node": "Process one invoice at a time",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Process one invoice at a time": {
+      "main": [
+        [],
+        [
+          {
+            "node": "POST /ingest",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "POST /ingest": {
+      "main": [
+        [
+          {
+            "node": "Process one invoice at a time",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "active": false,
+  "settings": {
+    "executionOrder": "v1"
+  },
+  "pinData": {}
+}

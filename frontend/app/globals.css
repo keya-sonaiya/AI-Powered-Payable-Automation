@@ -1,0 +1,146 @@
+/* ─────────────────────────────────────────────────────────────────────────
+   Design tokens — "control room" identity, daylight variant.
+
+   Same monitoring-console structure (sidebar nav, status pills, live
+   readouts) but on a soft light ground instead of a dark screen: white
+   panels floating a hair above a grey-blue backdrop, one teal accent,
+   status conveyed as solid pills. Depth comes from a single soft shadow
+   value used consistently, not hairlines and not glow.
+   ────────────────────────────────────────────────────────────────────────── */
+
+:root {
+  --ink: #1c2128;
+  --ink-soft: #565f6b;
+  --ink-faint: #8991a0;
+
+  --paper: #f3f5f8;
+  --paper-raised: #ffffff;
+  --paper-sunken: #e8ecf1;
+
+  --rule: #dde2e8;
+  --rule-strong: #c2c9d2;
+
+  --accent-primary: #0f8a7c;
+  --accent-primary-bg: #dcf1ed;
+
+  --accent-approve: #2f9e5b;
+  --accent-approve-bg: #e2f5e9;
+
+  --accent-exception: #b9740a;
+  --accent-exception-bg: #faead2;
+
+  --accent-fraud: #c23a3a;
+  --accent-fraud-bg: #fbdede;
+
+  --font-display: var(--font-plex-mono), "SFMono-Regular", Consolas, monospace;
+  --font-body: var(--font-plex-sans), -apple-system, "Segoe UI", sans-serif;
+  --font-mono: var(--font-plex-mono), "SFMono-Regular", Consolas, monospace;
+
+  --content-width: 1120px;
+  --radius: 10px;
+  --sidebar-width: 220px;
+  --shadow-card: 0 1px 2px rgba(20, 30, 45, 0.04), 0 4px 10px rgba(20, 30, 45, 0.05);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  height: 100%;
+}
+
+body {
+  background: var(--paper);
+  color: var(--ink);
+  font-family: var(--font-body);
+  font-size: 15px;
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+
+a {
+  color: var(--accent-primary);
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+button {
+  font-family: inherit;
+}
+
+:focus-visible {
+  outline: 2px solid var(--accent-primary);
+  outline-offset: 2px;
+}
+
+.mono {
+  font-family: var(--font-mono);
+  font-variant-numeric: tabular-nums;
+}
+
+.shell {
+  max-width: var(--content-width);
+  margin: 0 auto;
+  padding: 0 28px 96px;
+}
+
+.hairline {
+  border: none;
+  border-top: 1px solid var(--rule);
+  margin: 0;
+}
+
+.section {
+  padding: 32px 0;
+  border-bottom: 1px solid var(--rule);
+}
+.section:last-child {
+  border-bottom: none;
+}
+
+.eyebrow {
+  font-family: var(--font-mono);
+  font-size: 12px;
+  letter-spacing: 0.02em;
+  color: var(--ink-faint);
+}
+
+.section-title {
+  font-family: var(--font-body);
+  font-size: 20px;
+  font-weight: 600;
+  margin: 4px 0 20px;
+  color: var(--ink);
+}
+
+.muted {
+  color: var(--ink-soft);
+}
+
+.two-col {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+@media (max-width: 860px) {
+  .shell {
+    padding: 0 18px 72px;
+  }
+  .two-col {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.001ms !important;
+    transition-duration: 0.001ms !important;
+  }
+}

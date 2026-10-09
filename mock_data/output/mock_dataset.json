@@ -1,0 +1,5230 @@
+{
+  "vendors": [
+    {
+      "id": 1,
+      "name": "Rodriguez, Figueroa and Sanchez",
+      "tax_id": "21-8196001",
+      "payment_terms": "Net 30"
+    },
+    {
+      "id": 2,
+      "name": "Hall PLC",
+      "tax_id": "08-3863794",
+      "payment_terms": "Net 60"
+    },
+    {
+      "id": 3,
+      "name": "Blake and Sons",
+      "tax_id": "65-4235116",
+      "payment_terms": "Net 60"
+    },
+    {
+      "id": 4,
+      "name": "Howard LLC",
+      "tax_id": "94-0781618",
+      "payment_terms": "Net 60"
+    },
+    {
+      "id": 5,
+      "name": "Calderon-Montgomery",
+      "tax_id": "59-3103413",
+      "payment_terms": "Net 30"
+    },
+    {
+      "id": 6,
+      "name": "James Group",
+      "tax_id": "52-5534192",
+      "payment_terms": "Net 60"
+    },
+    {
+      "id": 7,
+      "name": "Daniel, Martin and Gray",
+      "tax_id": "83-5030564",
+      "payment_terms": "Net 45"
+    },
+    {
+      "id": 8,
+      "name": "Clark PLC",
+      "tax_id": "53-7672423",
+      "payment_terms": "Net 45"
+    },
+    {
+      "id": 9,
+      "name": "Hoffman, Baker and Richards",
+      "tax_id": "96-5328710",
+      "payment_terms": "Net 60"
+    },
+    {
+      "id": 10,
+      "name": "Hernandez and Sons",
+      "tax_id": "69-1669784",
+      "payment_terms": "Net 60"
+    },
+    {
+      "id": 11,
+      "name": "Valencia, Smith and Le",
+      "tax_id": "84-5146270",
+      "payment_terms": "Net 45"
+    },
+    {
+      "id": 12,
+      "name": "Liu, Baker and Mason",
+      "tax_id": "28-1489325",
+      "payment_terms": "Net 45"
+    },
+    {
+      "id": 13,
+      "name": "Ryan PLC",
+      "tax_id": "09-5701543",
+      "payment_terms": "Net 60"
+    },
+    {
+      "id": 14,
+      "name": "Allen PLC",
+      "tax_id": "11-7182278",
+      "payment_terms": "Net 45"
+    },
+    {
+      "id": 15,
+      "name": "Baker PLC",
+      "tax_id": "63-8346578",
+      "payment_terms": "Net 30"
+    },
+    {
+      "id": 16,
+      "name": "Martinez-Walker",
+      "tax_id": "50-9839301",
+      "payment_terms": "Net 30"
+    },
+    {
+      "id": 17,
+      "name": "Welch, Perez and Whitehead",
+      "tax_id": "51-8347382",
+      "payment_terms": "Net 30"
+    },
+    {
+      "id": 18,
+      "name": "Walls, Duncan and Kennedy",
+      "tax_id": "76-3116566",
+      "payment_terms": "Net 30"
+    },
+    {
+      "id": 19,
+      "name": "Shields-Brown",
+      "tax_id": "10-6513338",
+      "payment_terms": "Net 45"
+    },
+    {
+      "id": 20,
+      "name": "Taylor-White",
+      "tax_id": "73-1781080",
+      "payment_terms": "Net 30"
+    }
+  ],
+  "purchase_orders": [
+    {
+      "id": 1,
+      "po_number": "PO-100001",
+      "vendor_id": 19,
+      "amount": 14611.91,
+      "quantity": 293,
+      "unit_price": 49.87,
+      "status": "open"
+    },
+    {
+      "id": 2,
+      "po_number": "PO-100002",
+      "vendor_id": 8,
+      "amount": 244.92,
+      "quantity": 13,
+      "unit_price": 18.84,
+      "status": "open"
+    },
+    {
+      "id": 3,
+      "po_number": "PO-100003",
+      "vendor_id": 2,
+      "amount": 2303.78,
+      "quantity": 127,
+      "unit_price": 18.14,
+      "status": "open"
+    },
+    {
+      "id": 4,
+      "po_number": "PO-100004",
+      "vendor_id": 2,
+      "amount": 31243.5,
+      "quantity": 450,
+      "unit_price": 69.43,
+      "status": "open"
+    },
+    {
+      "id": 5,
+      "po_number": "PO-100005",
+      "vendor_id": 9,
+      "amount": 35080.32,
+      "quantity": 352,
+      "unit_price": 99.66,
+      "status": "open"
+    },
+    {
+      "id": 6,
+      "po_number": "PO-100006",
+      "vendor_id": 18,
+      "amount": 11245.85,
+      "quantity": 77,
+      "unit_price": 146.05,
+      "status": "open"
+    },
+    {
+      "id": 7,
+      "po_number": "PO-100007",
+      "vendor_id": 19,
+      "amount": 29636.85,
+      "quantity": 305,
+      "unit_price": 97.17,
+      "status": "open"
+    },
+    {
+      "id": 8,
+      "po_number": "PO-100008",
+      "vendor_id": 16,
+      "amount": 35692.74,
+      "quantity": 423,
+      "unit_price": 84.38,
+      "status": "open"
+    },
+    {
+      "id": 9,
+      "po_number": "PO-100009",
+      "vendor_id": 4,
+      "amount": 7876.5,
+      "quantity": 59,
+      "unit_price": 133.5,
+      "status": "open"
+    },
+    {
+      "id": 10,
+      "po_number": "PO-100010",
+      "vendor_id": 12,
+      "amount": 19246.16,
+      "quantity": 226,
+      "unit_price": 85.16,
+      "status": "open"
+    },
+    {
+      "id": 11,
+      "po_number": "PO-100011",
+      "vendor_id": 2,
+      "amount": 46876.68,
+      "quantity": 354,
+      "unit_price": 132.42,
+      "status": "open"
+    },
+    {
+      "id": 12,
+      "po_number": "PO-100012",
+      "vendor_id": 4,
+      "amount": 3423.91,
+      "quantity": 41,
+      "unit_price": 83.51,
+      "status": "closed"
+    },
+    {
+      "id": 13,
+      "po_number": "PO-100013",
+      "vendor_id": 11,
+      "amount": 72499.57,
+      "quantity": 419,
+      "unit_price": 173.03,
+      "status": "open"
+    },
+    {
+      "id": 14,
+      "po_number": "PO-100014",
+      "vendor_id": 8,
+      "amount": 4545.72,
+      "quantity": 108,
+      "unit_price": 42.09,
+      "status": "open"
+    },
+    {
+      "id": 15,
+      "po_number": "PO-100015",
+      "vendor_id": 15,
+      "amount": 73162.08,
+      "quantity": 423,
+      "unit_price": 172.96,
+      "status": "open"
+    },
+    {
+      "id": 16,
+      "po_number": "PO-100016",
+      "vendor_id": 18,
+      "amount": 891.6,
+      "quantity": 60,
+      "unit_price": 14.86,
+      "status": "open"
+    },
+    {
+      "id": 17,
+      "po_number": "PO-100017",
+      "vendor_id": 18,
+      "amount": 3451.44,
+      "quantity": 438,
+      "unit_price": 7.88,
+      "status": "open"
+    },
+    {
+      "id": 18,
+      "po_number": "PO-100018",
+      "vendor_id": 3,
+      "amount": 73543.8,
+      "quantity": 484,
+      "unit_price": 151.95,
+      "status": "open"
+    },
+    {
+      "id": 19,
+      "po_number": "PO-100019",
+      "vendor_id": 16,
+      "amount": 20659.59,
+      "quantity": 119,
+      "unit_price": 173.61,
+      "status": "open"
+    },
+    {
+      "id": 20,
+      "po_number": "PO-100020",
+      "vendor_id": 2,
+      "amount": 7416.6,
+      "quantity": 94,
+      "unit_price": 78.9,
+      "status": "open"
+    },
+    {
+      "id": 21,
+      "po_number": "PO-100021",
+      "vendor_id": 13,
+      "amount": 26922.15,
+      "quantity": 145,
+      "unit_price": 185.67,
+      "status": "open"
+    },
+    {
+      "id": 22,
+      "po_number": "PO-100022",
+      "vendor_id": 15,
+      "amount": 13648.44,
+      "quantity": 156,
+      "unit_price": 87.49,
+      "status": "open"
+    },
+    {
+      "id": 23,
+      "po_number": "PO-100023",
+      "vendor_id": 2,
+      "amount": 45431.82,
+      "quantity": 306,
+      "unit_price": 148.47,
+      "status": "open"
+    },
+    {
+      "id": 24,
+      "po_number": "PO-100024",
+      "vendor_id": 2,
+      "amount": 25930.8,
+      "quantity": 392,
+      "unit_price": 66.15,
+      "status": "open"
+    },
+    {
+      "id": 25,
+      "po_number": "PO-100025",
+      "vendor_id": 2,
+      "amount": 30272.73,
+      "quantity": 309,
+      "unit_price": 97.97,
+      "status": "open"
+    },
+    {
+      "id": 26,
+      "po_number": "PO-100026",
+      "vendor_id": 17,
+      "amount": 1448.1,
+      "quantity": 90,
+      "unit_price": 16.09,
+      "status": "open"
+    },
+    {
+      "id": 27,
+      "po_number": "PO-100027",
+      "vendor_id": 17,
+      "amount": 8721.51,
+      "quantity": 51,
+      "unit_price": 171.01,
+      "status": "open"
+    },
+    {
+      "id": 28,
+      "po_number": "PO-100028",
+      "vendor_id": 3,
+      "amount": 5730.5,
+      "quantity": 314,
+      "unit_price": 18.25,
+      "status": "open"
+    },
+    {
+      "id": 29,
+      "po_number": "PO-100029",
+      "vendor_id": 8,
+      "amount": 6130.08,
+      "quantity": 216,
+      "unit_price": 28.38,
+      "status": "open"
+    },
+    {
+      "id": 30,
+      "po_number": "PO-100030",
+      "vendor_id": 19,
+      "amount": 16033.04,
+      "quantity": 136,
+      "unit_price": 117.89,
+      "status": "open"
+    },
+    {
+      "id": 31,
+      "po_number": "PO-100031",
+      "vendor_id": 19,
+      "amount": 31975.06,
+      "quantity": 299,
+      "unit_price": 106.94,
+      "status": "open"
+    },
+    {
+      "id": 32,
+      "po_number": "PO-100032",
+      "vendor_id": 9,
+      "amount": 15458.4,
+      "quantity": 114,
+      "unit_price": 135.6,
+      "status": "open"
+    },
+    {
+      "id": 33,
+      "po_number": "PO-100033",
+      "vendor_id": 11,
+      "amount": 7496.28,
+      "quantity": 132,
+      "unit_price": 56.79,
+      "status": "open"
+    },
+    {
+      "id": 34,
+      "po_number": "PO-100034",
+      "vendor_id": 10,
+      "amount": 16262.6,
+      "quantity": 244,
+      "unit_price": 66.65,
+      "status": "open"
+    },
+    {
+      "id": 35,
+      "po_number": "PO-100035",
+      "vendor_id": 3,
+      "amount": 1321.18,
+      "quantity": 14,
+      "unit_price": 94.37,
+      "status": "closed"
+    },
+    {
+      "id": 36,
+      "po_number": "PO-100036",
+      "vendor_id": 19,
+      "amount": 1176.69,
+      "quantity": 61,
+      "unit_price": 19.29,
+      "status": "closed"
+    },
+    {
+      "id": 37,
+      "po_number": "PO-100037",
+      "vendor_id": 7,
+      "amount": 15254.99,
+      "quantity": 269,
+      "unit_price": 56.71,
+      "status": "open"
+    },
+    {
+      "id": 38,
+      "po_number": "PO-100038",
+      "vendor_id": 12,
+      "amount": 8487.01,
+      "quantity": 461,
+      "unit_price": 18.41,
+      "status": "open"
+    },
+    {
+      "id": 39,
+      "po_number": "PO-100039",
+      "vendor_id": 8,
+      "amount": 12053.43,
+      "quantity": 199,
+      "unit_price": 60.57,
+      "status": "open"
+    },
+    {
+      "id": 40,
+      "po_number": "PO-100040",
+      "vendor_id": 10,
+      "amount": 63582.55,
+      "quantity": 323,
+      "unit_price": 196.85,
+      "status": "open"
+    },
+    {
+      "id": 41,
+      "po_number": "PO-100041",
+      "vendor_id": 17,
+      "amount": 1893.22,
+      "quantity": 14,
+      "unit_price": 135.23,
+      "status": "open"
+    },
+    {
+      "id": 42,
+      "po_number": "PO-100042",
+      "vendor_id": 18,
+      "amount": 30430.47,
+      "quantity": 163,
+      "unit_price": 186.69,
+      "status": "open"
+    },
+    {
+      "id": 43,
+      "po_number": "PO-100043",
+      "vendor_id": 4,
+      "amount": 86352.7,
+      "quantity": 490,
+      "unit_price": 176.23,
+      "status": "open"
+    },
+    {
+      "id": 44,
+      "po_number": "PO-100044",
+      "vendor_id": 9,
+      "amount": 12315.81,
+      "quantity": 69,
+      "unit_price": 178.49,
+      "status": "open"
+    },
+    {
+      "id": 45,
+      "po_number": "PO-100045",
+      "vendor_id": 18,
+      "amount": 5171.79,
+      "quantity": 89,
+      "unit_price": 58.11,
+      "status": "open"
+    },
+    {
+      "id": 46,
+      "po_number": "PO-100046",
+      "vendor_id": 20,
+      "amount": 16956.81,
+      "quantity": 117,
+      "unit_price": 144.93,
+      "status": "open"
+    },
+    {
+      "id": 47,
+      "po_number": "PO-100047",
+      "vendor_id": 7,
+      "amount": 46453.48,
+      "quantity": 361,
+      "unit_price": 128.68,
+      "status": "open"
+    },
+    {
+      "id": 48,
+      "po_number": "PO-100048",
+      "vendor_id": 9,
+      "amount": 26869.68,
+      "quantity": 268,
+      "unit_price": 100.26,
+      "status": "open"
+    },
+    {
+      "id": 49,
+      "po_number": "PO-100049",
+      "vendor_id": 2,
+      "amount": 7335.33,
+      "quantity": 57,
+      "unit_price": 128.69,
+      "status": "open"
+    },
+    {
+      "id": 50,
+      "po_number": "PO-100050",
+      "vendor_id": 9,
+      "amount": 182.08,
+      "quantity": 32,
+      "unit_price": 5.69,
+      "status": "open"
+    },
+    {
+      "id": 51,
+      "po_number": "PO-100051",
+      "vendor_id": 6,
+      "amount": 35461.24,
+      "quantity": 389,
+      "unit_price": 91.16,
+      "status": "open"
+    },
+    {
+      "id": 52,
+      "po_number": "PO-100052",
+      "vendor_id": 14,
+      "amount": 2046.33,
+      "quantity": 297,
+      "unit_price": 6.89,
+      "status": "open"
+    },
+    {
+      "id": 53,
+      "po_number": "PO-100053",
+      "vendor_id": 3,
+      "amount": 87364.53,
+      "quantity": 493,
+      "unit_price": 177.21,
+      "status": "open"
+    },
+    {
+      "id": 54,
+      "po_number": "PO-100054",
+      "vendor_id": 5,
+      "amount": 3476.67,
+      "quantity": 289,
+      "unit_price": 12.03,
+      "status": "open"
+    },
+    {
+      "id": 55,
+      "po_number": "PO-100055",
+      "vendor_id": 12,
+      "amount": 34723.92,
+      "quantity": 308,
+      "unit_price": 112.74,
+      "status": "open"
+    },
+    {
+      "id": 56,
+      "po_number": "PO-100056",
+      "vendor_id": 12,
+      "amount": 87866.5,
+      "quantity": 470,
+      "unit_price": 186.95,
+      "status": "closed"
+    },
+    {
+      "id": 57,
+      "po_number": "PO-100057",
+      "vendor_id": 2,
+      "amount": 35141.9,
+      "quantity": 470,
+      "unit_price": 74.77,
+      "status": "open"
+    },
+    {
+      "id": 58,
+      "po_number": "PO-100058",
+      "vendor_id": 8,
+      "amount": 8789.04,
+      "quantity": 351,
+      "unit_price": 25.04,
+      "status": "open"
+    },
+    {
+      "id": 59,
+      "po_number": "PO-100059",
+      "vendor_id": 18,
+      "amount": 81113.34,
+      "quantity": 462,
+      "unit_price": 175.57,
+      "status": "open"
+    },
+    {
+      "id": 60,
+      "po_number": "PO-100060",
+      "vendor_id": 20,
+      "amount": 13810.02,
+      "quantity": 393,
+      "unit_price": 35.14,
+      "status": "open"
+    },
+    {
+      "id": 61,
+      "po_number": "PO-100061",
+      "vendor_id": 8,
+      "amount": 16583.88,
+      "quantity": 452,
+      "unit_price": 36.69,
+      "status": "open"
+    },
+    {
+      "id": 62,
+      "po_number": "PO-100062",
+      "vendor_id": 6,
+      "amount": 39369.4,
+      "quantity": 461,
+      "unit_price": 85.4,
+      "status": "closed"
+    },
+    {
+      "id": 63,
+      "po_number": "PO-100063",
+      "vendor_id": 6,
+      "amount": 71703.36,
+      "quantity": 387,
+      "unit_price": 185.28,
+      "status": "open"
+    },
+    {
+      "id": 64,
+      "po_number": "PO-100064",
+      "vendor_id": 14,
+      "amount": 56964.6,
+      "quantity": 420,
+      "unit_price": 135.63,
+      "status": "closed"
+    },
+    {
+      "id": 65,
+      "po_number": "PO-100065",
+      "vendor_id": 8,
+      "amount": 5261.84,
+      "quantity": 146,
+      "unit_price": 36.04,
+      "status": "open"
+    },
+    {
+      "id": 66,
+      "po_number": "PO-100066",
+      "vendor_id": 4,
+      "amount": 35889.35,
+      "quantity": 205,
+      "unit_price": 175.07,
+      "status": "open"
+    },
+    {
+      "id": 67,
+      "po_number": "PO-100067",
+      "vendor_id": 12,
+      "amount": 27390.0,
+      "quantity": 166,
+      "unit_price": 165.0,
+      "status": "open"
+    },
+    {
+      "id": 68,
+      "po_number": "PO-100068",
+      "vendor_id": 8,
+      "amount": 1191.64,
+      "quantity": 124,
+      "unit_price": 9.61,
+      "status": "open"
+    },
+    {
+      "id": 69,
+      "po_number": "PO-100069",
+      "vendor_id": 7,
+      "amount": 14768.14,
+      "quantity": 214,
+      "unit_price": 69.01,
+      "status": "open"
+    },
+    {
+      "id": 70,
+      "po_number": "PO-100070",
+      "vendor_id": 3,
+      "amount": 24069.15,
+      "quantity": 405,
+      "unit_price": 59.43,
+      "status": "open"
+    },
+    {
+      "id": 71,
+      "po_number": "PO-100071",
+      "vendor_id": 17,
+      "amount": 29427.14,
+      "quantity": 214,
+      "unit_price": 137.51,
+      "status": "open"
+    },
+    {
+      "id": 72,
+      "po_number": "PO-100072",
+      "vendor_id": 11,
+      "amount": 5086.2,
+      "quantity": 490,
+      "unit_price": 10.38,
+      "status": "open"
+    },
+    {
+      "id": 73,
+      "po_number": "PO-100073",
+      "vendor_id": 9,
+      "amount": 11939.21,
+      "quantity": 101,
+      "unit_price": 118.21,
+      "status": "open"
+    },
+    {
+      "id": 74,
+      "po_number": "PO-100074",
+      "vendor_id": 9,
+      "amount": 758.06,
+      "quantity": 29,
+      "unit_price": 26.14,
+      "status": "open"
+    },
+    {
+      "id": 75,
+      "po_number": "PO-100075",
+      "vendor_id": 14,
+      "amount": 27355.02,
+      "quantity": 186,
+      "unit_price": 147.07,
+      "status": "open"
+    },
+    {
+      "id": 76,
+      "po_number": "PO-100076",
+      "vendor_id": 11,
+      "amount": 28707.93,
+      "quantity": 233,
+      "unit_price": 123.21,
+      "status": "open"
+    },
+    {
+      "id": 77,
+      "po_number": "PO-100077",
+      "vendor_id": 17,
+      "amount": 5527.59,
+      "quantity": 69,
+      "unit_price": 80.11,
+      "status": "open"
+    },
+    {
+      "id": 78,
+      "po_number": "PO-100078",
+      "vendor_id": 19,
+      "amount": 5849.69,
+      "quantity": 107,
+      "unit_price": 54.67,
+      "status": "open"
+    },
+    {
+      "id": 79,
+      "po_number": "PO-100079",
+      "vendor_id": 14,
+      "amount": 1063.8,
+      "quantity": 10,
+      "unit_price": 106.38,
+      "status": "open"
+    },
+    {
+      "id": 80,
+      "po_number": "PO-100080",
+      "vendor_id": 18,
+      "amount": 52449.69,
+      "quantity": 361,
+      "unit_price": 145.29,
+      "status": "open"
+    },
+    {
+      "id": 81,
+      "po_number": "PO-100081",
+      "vendor_id": 7,
+      "amount": 17463.6,
+      "quantity": 196,
+      "unit_price": 89.1,
+      "status": "closed"
+    },
+    {
+      "id": 82,
+      "po_number": "PO-100082",
+      "vendor_id": 11,
+      "amount": 21783.09,
+      "quantity": 329,
+      "unit_price": 66.21,
+      "status": "open"
+    },
+    {
+      "id": 83,
+      "po_number": "PO-100083",
+      "vendor_id": 4,
+      "amount": 68232.78,
+      "quantity": 378,
+      "unit_price": 180.51,
+      "status": "open"
+    },
+    {
+      "id": 84,
+      "po_number": "PO-100084",
+      "vendor_id": 17,
+      "amount": 22686.72,
+      "quantity": 168,
+      "unit_price": 135.04,
+      "status": "open"
+    },
+    {
+      "id": 85,
+      "po_number": "PO-100085",
+      "vendor_id": 11,
+      "amount": 30447.36,
+      "quantity": 216,
+      "unit_price": 140.96,
+      "status": "open"
+    },
+    {
+      "id": 86,
+      "po_number": "PO-100086",
+      "vendor_id": 13,
+      "amount": 53716.84,
+      "quantity": 356,
+      "unit_price": 150.89,
+      "status": "open"
+    },
+    {
+      "id": 87,
+      "po_number": "PO-100087",
+      "vendor_id": 6,
+      "amount": 37693.5,
+      "quantity": 325,
+      "unit_price": 115.98,
+      "status": "open"
+    },
+    {
+      "id": 88,
+      "po_number": "PO-100088",
+      "vendor_id": 13,
+      "amount": 48598.2,
+      "quantity": 290,
+      "unit_price": 167.58,
+      "status": "open"
+    },
+    {
+      "id": 89,
+      "po_number": "PO-100089",
+      "vendor_id": 10,
+      "amount": 10393.11,
+      "quantity": 117,
+      "unit_price": 88.83,
+      "status": "open"
+    },
+    {
+      "id": 90,
+      "po_number": "PO-100090",
+      "vendor_id": 19,
+      "amount": 42454.4,
+      "quantity": 320,
+      "unit_price": 132.67,
+      "status": "open"
+    },
+    {
+      "id": 91,
+      "po_number": "PO-100091",
+      "vendor_id": 15,
+      "amount": 21527.92,
+      "quantity": 236,
+      "unit_price": 91.22,
+      "status": "closed"
+    },
+    {
+      "id": 92,
+      "po_number": "PO-100092",
+      "vendor_id": 7,
+      "amount": 26360.17,
+      "quantity": 271,
+      "unit_price": 97.27,
+      "status": "open"
+    },
+    {
+      "id": 93,
+      "po_number": "PO-100093",
+      "vendor_id": 6,
+      "amount": 7474.38,
+      "quantity": 347,
+      "unit_price": 21.54,
+      "status": "open"
+    },
+    {
+      "id": 94,
+      "po_number": "PO-100094",
+      "vendor_id": 17,
+      "amount": 44818.58,
+      "quantity": 349,
+      "unit_price": 128.42,
+      "status": "open"
+    },
+    {
+      "id": 95,
+      "po_number": "PO-100095",
+      "vendor_id": 3,
+      "amount": 81784.56,
+      "quantity": 429,
+      "unit_price": 190.64,
+      "status": "open"
+    },
+    {
+      "id": 96,
+      "po_number": "PO-100096",
+      "vendor_id": 8,
+      "amount": 23197.62,
+      "quantity": 354,
+      "unit_price": 65.53,
+      "status": "open"
+    },
+    {
+      "id": 97,
+      "po_number": "PO-100097",
+      "vendor_id": 7,
+      "amount": 829.6,
+      "quantity": 85,
+      "unit_price": 9.76,
+      "status": "open"
+    },
+    {
+      "id": 98,
+      "po_number": "PO-100098",
+      "vendor_id": 8,
+      "amount": 31422.6,
+      "quantity": 253,
+      "unit_price": 124.2,
+      "status": "open"
+    },
+    {
+      "id": 99,
+      "po_number": "PO-100099",
+      "vendor_id": 3,
+      "amount": 20854.26,
+      "quantity": 243,
+      "unit_price": 85.82,
+      "status": "open"
+    },
+    {
+      "id": 100,
+      "po_number": "PO-100100",
+      "vendor_id": 19,
+      "amount": 15813.72,
+      "quantity": 109,
+      "unit_price": 145.08,
+      "status": "open"
+    },
+    {
+      "id": 101,
+      "po_number": "PO-100101",
+      "vendor_id": 13,
+      "amount": 21810.59,
+      "quantity": 263,
+      "unit_price": 82.93,
+      "status": "closed"
+    },
+    {
+      "id": 102,
+      "po_number": "PO-100102",
+      "vendor_id": 5,
+      "amount": 47986.05,
+      "quantity": 345,
+      "unit_price": 139.09,
+      "status": "open"
+    },
+    {
+      "id": 103,
+      "po_number": "PO-100103",
+      "vendor_id": 4,
+      "amount": 35863.2,
+      "quantity": 408,
+      "unit_price": 87.9,
+      "status": "open"
+    },
+    {
+      "id": 104,
+      "po_number": "PO-100104",
+      "vendor_id": 6,
+      "amount": 80747.8,
+      "quantity": 421,
+      "unit_price": 191.8,
+      "status": "open"
+    },
+    {
+      "id": 105,
+      "po_number": "PO-100105",
+      "vendor_id": 8,
+      "amount": 81635.97,
+      "quantity": 479,
+      "unit_price": 170.43,
+      "status": "open"
+    },
+    {
+      "id": 106,
+      "po_number": "PO-100106",
+      "vendor_id": 15,
+      "amount": 12579.84,
+      "quantity": 78,
+      "unit_price": 161.28,
+      "status": "open"
+    },
+    {
+      "id": 107,
+      "po_number": "PO-100107",
+      "vendor_id": 17,
+      "amount": 35848.56,
+      "quantity": 296,
+      "unit_price": 121.11,
+      "status": "open"
+    },
+    {
+      "id": 108,
+      "po_number": "PO-100108",
+      "vendor_id": 15,
+      "amount": 52949.39,
+      "quantity": 323,
+      "unit_price": 163.93,
+      "status": "open"
+    },
+    {
+      "id": 109,
+      "po_number": "PO-100109",
+      "vendor_id": 17,
+      "amount": 38066.88,
+      "quantity": 228,
+      "unit_price": 166.96,
+      "status": "open"
+    },
+    {
+      "id": 110,
+      "po_number": "PO-100110",
+      "vendor_id": 18,
+      "amount": 42830.48,
+      "quantity": 238,
+      "unit_price": 179.96,
+      "status": "open"
+    },
+    {
+      "id": 111,
+      "po_number": "PO-100111",
+      "vendor_id": 16,
+      "amount": 13329.6,
+      "quantity": 240,
+      "unit_price": 55.54,
+      "status": "open"
+    },
+    {
+      "id": 112,
+      "po_number": "PO-100112",
+      "vendor_id": 8,
+      "amount": 56909.6,
+      "quantity": 440,
+      "unit_price": 129.34,
+      "status": "open"
+    },
+    {
+      "id": 113,
+      "po_number": "PO-100113",
+      "vendor_id": 17,
+      "amount": 32822.76,
+      "quantity": 258,
+      "unit_price": 127.22,
+      "status": "open"
+    },
+    {
+      "id": 114,
+      "po_number": "PO-100114",
+      "vendor_id": 10,
+      "amount": 7537.4,
+      "quantity": 130,
+      "unit_price": 57.98,
+      "status": "open"
+    },
+    {
+      "id": 115,
+      "po_number": "PO-100115",
+      "vendor_id": 11,
+      "amount": 51524.11,
+      "quantity": 467,
+      "unit_price": 110.33,
+      "status": "open"
+    },
+    {
+      "id": 116,
+      "po_number": "PO-100116",
+      "vendor_id": 5,
+      "amount": 4358.7,
+      "quantity": 87,
+      "unit_price": 50.1,
+      "status": "open"
+    },
+    {
+      "id": 117,
+      "po_number": "PO-100117",
+      "vendor_id": 5,
+      "amount": 17333.12,
+      "quantity": 371,
+      "unit_price": 46.72,
+      "status": "open"
+    },
+    {
+      "id": 118,
+      "po_number": "PO-100118",
+      "vendor_id": 14,
+      "amount": 15155.36,
+      "quantity": 218,
+      "unit_price": 69.52,
+      "status": "open"
+    },
+    {
+      "id": 119,
+      "po_number": "PO-100119",
+      "vendor_id": 15,
+      "amount": 3805.08,
+      "quantity": 222,
+      "unit_price": 17.14,
+      "status": "open"
+    },
+    {
+      "id": 120,
+      "po_number": "PO-100120",
+      "vendor_id": 14,
+      "amount": 37920.96,
+      "quantity": 209,
+      "unit_price": 181.44,
+      "status": "open"
+    },
+    {
+      "id": 121,
+      "po_number": "PO-100121",
+      "vendor_id": 19,
+      "amount": 69471.22,
+      "quantity": 494,
+      "unit_price": 140.63,
+      "status": "open"
+    },
+    {
+      "id": 122,
+      "po_number": "PO-100122",
+      "vendor_id": 19,
+      "amount": 19994.04,
+      "quantity": 204,
+      "unit_price": 98.01,
+      "status": "open"
+    },
+    {
+      "id": 123,
+      "po_number": "PO-100123",
+      "vendor_id": 12,
+      "amount": 24612.66,
+      "quantity": 162,
+      "unit_price": 151.93,
+      "status": "open"
+    },
+    {
+      "id": 124,
+      "po_number": "PO-100124",
+      "vendor_id": 20,
+      "amount": 22516.69,
+      "quantity": 469,
+      "unit_price": 48.01,
+      "status": "open"
+    },
+    {
+      "id": 125,
+      "po_number": "PO-100125",
+      "vendor_id": 8,
+      "amount": 13408.51,
+      "quantity": 149,
+      "unit_price": 89.99,
+      "status": "open"
+    },
+    {
+      "id": 126,
+      "po_number": "PO-100126",
+      "vendor_id": 13,
+      "amount": 24648.26,
+      "quantity": 182,
+      "unit_price": 135.43,
+      "status": "open"
+    },
+    {
+      "id": 127,
+      "po_number": "PO-100127",
+      "vendor_id": 13,
+      "amount": 14128.4,
+      "quantity": 380,
+      "unit_price": 37.18,
+      "status": "open"
+    },
+    {
+      "id": 128,
+      "po_number": "PO-100128",
+      "vendor_id": 15,
+      "amount": 14347.2,
+      "quantity": 480,
+      "unit_price": 29.89,
+      "status": "open"
+    },
+    {
+      "id": 129,
+      "po_number": "PO-100129",
+      "vendor_id": 19,
+      "amount": 40015.44,
+      "quantity": 298,
+      "unit_price": 134.28,
+      "status": "open"
+    },
+    {
+      "id": 130,
+      "po_number": "PO-100130",
+      "vendor_id": 3,
+      "amount": 30028.62,
+      "quantity": 339,
+      "unit_price": 88.58,
+      "status": "open"
+    },
+    {
+      "id": 131,
+      "po_number": "PO-100131",
+      "vendor_id": 15,
+      "amount": 1525.43,
+      "quantity": 103,
+      "unit_price": 14.81,
+      "status": "open"
+    },
+    {
+      "id": 132,
+      "po_number": "PO-100132",
+      "vendor_id": 13,
+      "amount": 8189.79,
+      "quantity": 177,
+      "unit_price": 46.27,
+      "status": "open"
+    },
+    {
+      "id": 133,
+      "po_number": "PO-100133",
+      "vendor_id": 11,
+      "amount": 27926.08,
+      "quantity": 182,
+      "unit_price": 153.44,
+      "status": "open"
+    },
+    {
+      "id": 134,
+      "po_number": "PO-100134",
+      "vendor_id": 13,
+      "amount": 23049.28,
+      "quantity": 152,
+      "unit_price": 151.64,
+      "status": "open"
+    },
+    {
+      "id": 135,
+      "po_number": "PO-100135",
+      "vendor_id": 14,
+      "amount": 23325.59,
+      "quantity": 139,
+      "unit_price": 167.81,
+      "status": "open"
+    },
+    {
+      "id": 136,
+      "po_number": "PO-100136",
+      "vendor_id": 16,
+      "amount": 2870.14,
+      "quantity": 19,
+      "unit_price": 151.06,
+      "status": "open"
+    },
+    {
+      "id": 137,
+      "po_number": "PO-100137",
+      "vendor_id": 2,
+      "amount": 36400.28,
+      "quantity": 497,
+      "unit_price": 73.24,
+      "status": "open"
+    },
+    {
+      "id": 138,
+      "po_number": "PO-100138",
+      "vendor_id": 3,
+      "amount": 78393.03,
+      "quantity": 409,
+      "unit_price": 191.67,
+      "status": "open"
+    },
+    {
+      "id": 139,
+      "po_number": "PO-100139",
+      "vendor_id": 2,
+      "amount": 4375.8,
+      "quantity": 396,
+      "unit_price": 11.05,
+      "status": "open"
+    },
+    {
+      "id": 140,
+      "po_number": "PO-100140",
+      "vendor_id": 8,
+      "amount": 18888.8,
+      "quantity": 112,
+      "unit_price": 168.65,
+      "status": "open"
+    },
+    {
+      "id": 141,
+      "po_number": "PO-100141",
+      "vendor_id": 20,
+      "amount": 4533.76,
+      "quantity": 88,
+      "unit_price": 51.52,
+      "status": "open"
+    },
+    {
+      "id": 142,
+      "po_number": "PO-100142",
+      "vendor_id": 16,
+      "amount": 9613.12,
+      "quantity": 352,
+      "unit_price": 27.31,
+      "status": "open"
+    },
+    {
+      "id": 143,
+      "po_number": "PO-100143",
+      "vendor_id": 7,
+      "amount": 35067.2,
+      "quantity": 248,
+      "unit_price": 141.4,
+      "status": "open"
+    },
+    {
+      "id": 144,
+      "po_number": "PO-100144",
+      "vendor_id": 12,
+      "amount": 11699.25,
+      "quantity": 95,
+      "unit_price": 123.15,
+      "status": "open"
+    },
+    {
+      "id": 145,
+      "po_number": "PO-100145",
+      "vendor_id": 4,
+      "amount": 67222.08,
+      "quantity": 408,
+      "unit_price": 164.76,
+      "status": "open"
+    },
+    {
+      "id": 146,
+      "po_number": "PO-100146",
+      "vendor_id": 4,
+      "amount": 3063.06,
+      "quantity": 306,
+      "unit_price": 10.01,
+      "status": "open"
+    },
+    {
+      "id": 147,
+      "po_number": "PO-100147",
+      "vendor_id": 19,
+      "amount": 64816.92,
+      "quantity": 356,
+      "unit_price": 182.07,
+      "status": "open"
+    },
+    {
+      "id": 148,
+      "po_number": "PO-100148",
+      "vendor_id": 13,
+      "amount": 40169.67,
+      "quantity": 213,
+      "unit_price": 188.59,
+      "status": "open"
+    },
+    {
+      "id": 149,
+      "po_number": "PO-100149",
+      "vendor_id": 3,
+      "amount": 43716.71,
+      "quantity": 313,
+      "unit_price": 139.67,
+      "status": "open"
+    },
+    {
+      "id": 150,
+      "po_number": "PO-100150",
+      "vendor_id": 20,
+      "amount": 12073.42,
+      "quantity": 422,
+      "unit_price": 28.61,
+      "status": "open"
+    },
+    {
+      "id": 151,
+      "po_number": "PO-100151",
+      "vendor_id": 19,
+      "amount": 5334.1,
+      "quantity": 410,
+      "unit_price": 13.01,
+      "status": "open"
+    },
+    {
+      "id": 152,
+      "po_number": "PO-100152",
+      "vendor_id": 14,
+      "amount": 26886.48,
+      "quantity": 348,
+      "unit_price": 77.26,
+      "status": "open"
+    },
+    {
+      "id": 153,
+      "po_number": "PO-100153",
+      "vendor_id": 17,
+      "amount": 24395.14,
+      "quantity": 341,
+      "unit_price": 71.54,
+      "status": "open"
+    },
+    {
+      "id": 154,
+      "po_number": "PO-100154",
+      "vendor_id": 14,
+      "amount": 43354.29,
+      "quantity": 431,
+      "unit_price": 100.59,
+      "status": "open"
+    },
+    {
+      "id": 155,
+      "po_number": "PO-100155",
+      "vendor_id": 15,
+      "amount": 12956.76,
+      "quantity": 372,
+      "unit_price": 34.83,
+      "status": "open"
+    },
+    {
+      "id": 156,
+      "po_number": "PO-100156",
+      "vendor_id": 6,
+      "amount": 41094.9,
+      "quantity": 385,
+      "unit_price": 106.74,
+      "status": "open"
+    },
+    {
+      "id": 157,
+      "po_number": "PO-100157",
+      "vendor_id": 9,
+      "amount": 52845.0,
+      "quantity": 325,
+      "unit_price": 162.6,
+      "status": "open"
+    },
+    {
+      "id": 158,
+      "po_number": "PO-100158",
+      "vendor_id": 18,
+      "amount": 40307.68,
+      "quantity": 406,
+      "unit_price": 99.28,
+      "status": "open"
+    },
+    {
+      "id": 159,
+      "po_number": "PO-100159",
+      "vendor_id": 3,
+      "amount": 26891.84,
+      "quantity": 152,
+      "unit_price": 176.92,
+      "status": "open"
+    },
+    {
+      "id": 160,
+      "po_number": "PO-100160",
+      "vendor_id": 8,
+      "amount": 37674.28,
+      "quantity": 394,
+      "unit_price": 95.62,
+      "status": "open"
+    },
+    {
+      "id": 161,
+      "po_number": "PO-100161",
+      "vendor_id": 20,
+      "amount": 27772.8,
+      "quantity": 352,
+      "unit_price": 78.9,
+      "status": "open"
+    },
+    {
+      "id": 162,
+      "po_number": "PO-100162",
+      "vendor_id": 16,
+      "amount": 8754.42,
+      "quantity": 118,
+      "unit_price": 74.19,
+      "status": "open"
+    },
+    {
+      "id": 163,
+      "po_number": "PO-100163",
+      "vendor_id": 9,
+      "amount": 10953.52,
+      "quantity": 184,
+      "unit_price": 59.53,
+      "status": "open"
+    },
+    {
+      "id": 164,
+      "po_number": "PO-100164",
+      "vendor_id": 20,
+      "amount": 65172.78,
+      "quantity": 369,
+      "unit_price": 176.62,
+      "status": "open"
+    },
+    {
+      "id": 165,
+      "po_number": "PO-100165",
+      "vendor_id": 18,
+      "amount": 1586.1,
+      "quantity": 15,
+      "unit_price": 105.74,
+      "status": "open"
+    },
+    {
+      "id": 166,
+      "po_number": "PO-100166",
+      "vendor_id": 7,
+      "amount": 2759.18,
+      "quantity": 53,
+      "unit_price": 52.06,
+      "status": "open"
+    },
+    {
+      "id": 167,
+      "po_number": "PO-100167",
+      "vendor_id": 14,
+      "amount": 29447.6,
+      "quantity": 260,
+      "unit_price": 113.26,
+      "status": "open"
+    },
+    {
+      "id": 168,
+      "po_number": "PO-100168",
+      "vendor_id": 8,
+      "amount": 35515.92,
+      "quantity": 363,
+      "unit_price": 97.84,
+      "status": "open"
+    },
+    {
+      "id": 169,
+      "po_number": "PO-100169",
+      "vendor_id": 3,
+      "amount": 7713.6,
+      "quantity": 160,
+      "unit_price": 48.21,
+      "status": "open"
+    },
+    {
+      "id": 170,
+      "po_number": "PO-100170",
+      "vendor_id": 8,
+      "amount": 22322.02,
+      "quantity": 166,
+      "unit_price": 134.47,
+      "status": "open"
+    },
+    {
+      "id": 171,
+      "po_number": "PO-100171",
+      "vendor_id": 12,
+      "amount": 28458.36,
+      "quantity": 252,
+      "unit_price": 112.93,
+      "status": "closed"
+    },
+    {
+      "id": 172,
+      "po_number": "PO-100172",
+      "vendor_id": 12,
+      "amount": 45250.18,
+      "quantity": 227,
+      "unit_price": 199.34,
+      "status": "open"
+    },
+    {
+      "id": 173,
+      "po_number": "PO-100173",
+      "vendor_id": 18,
+      "amount": 13174.4,
+      "quantity": 179,
+      "unit_price": 73.6,
+      "status": "open"
+    },
+    {
+      "id": 174,
+      "po_number": "PO-100174",
+      "vendor_id": 9,
+      "amount": 8967.32,
+      "quantity": 166,
+      "unit_price": 54.02,
+      "status": "open"
+    },
+    {
+      "id": 175,
+      "po_number": "PO-100175",
+      "vendor_id": 4,
+      "amount": 16126.45,
+      "quantity": 379,
+      "unit_price": 42.55,
+      "status": "open"
+    },
+    {
+      "id": 176,
+      "po_number": "PO-100176",
+      "vendor_id": 4,
+      "amount": 42701.1,
+      "quantity": 390,
+      "unit_price": 109.49,
+      "status": "open"
+    },
+    {
+      "id": 177,
+      "po_number": "PO-100177",
+      "vendor_id": 6,
+      "amount": 5097.6,
+      "quantity": 108,
+      "unit_price": 47.2,
+      "status": "open"
+    },
+    {
+      "id": 178,
+      "po_number": "PO-100178",
+      "vendor_id": 16,
+      "amount": 22089.79,
+      "quantity": 151,
+      "unit_price": 146.29,
+      "status": "open"
+    },
+    {
+      "id": 179,
+      "po_number": "PO-100179",
+      "vendor_id": 20,
+      "amount": 30214.8,
+      "quantity": 154,
+      "unit_price": 196.2,
+      "status": "open"
+    },
+    {
+      "id": 180,
+      "po_number": "PO-100180",
+      "vendor_id": 7,
+      "amount": 7946.96,
+      "quantity": 161,
+      "unit_price": 49.36,
+      "status": "open"
+    }
+  ],
+  "receipts": [
+    {
+      "id": 1,
+      "po_id": 1,
+      "quantity_received": 293,
+      "received_date": "2026-02-06"
+    },
+    {
+      "id": 2,
+      "po_id": 2,
+      "quantity_received": 13,
+      "received_date": "2026-03-06"
+    },
+    {
+      "id": 3,
+      "po_id": 3,
+      "quantity_received": 127,
+      "received_date": "2026-07-08"
+    },
+    {
+      "id": 4,
+      "po_id": 4,
+      "quantity_received": 450,
+      "received_date": "2026-03-25"
+    },
+    {
+      "id": 5,
+      "po_id": 5,
+      "quantity_received": 352,
+      "received_date": "2026-01-23"
+    },
+    {
+      "id": 6,
+      "po_id": 6,
+      "quantity_received": 77,
+      "received_date": "2026-05-28"
+    },
+    {
+      "id": 7,
+      "po_id": 7,
+      "quantity_received": 305,
+      "received_date": "2026-06-01"
+    },
+    {
+      "id": 8,
+      "po_id": 8,
+      "quantity_received": 423,
+      "received_date": "2026-06-26"
+    },
+    {
+      "id": 9,
+      "po_id": 9,
+      "quantity_received": 59,
+      "received_date": "2026-06-14"
+    },
+    {
+      "id": 10,
+      "po_id": 10,
+      "quantity_received": 226,
+      "received_date": "2026-08-04"
+    },
+    {
+      "id": 11,
+      "po_id": 11,
+      "quantity_received": 283,
+      "received_date": "2026-07-09"
+    },
+    {
+      "id": 12,
+      "po_id": 12,
+      "quantity_received": 41,
+      "received_date": "2026-03-15"
+    },
+    {
+      "id": 13,
+      "po_id": 13,
+      "quantity_received": 419,
+      "received_date": "2026-03-26"
+    },
+    {
+      "id": 14,
+      "po_id": 14,
+      "quantity_received": 108,
+      "received_date": "2026-08-13"
+    },
+    {
+      "id": 15,
+      "po_id": 15,
+      "quantity_received": 423,
+      "received_date": "2026-05-02"
+    },
+    {
+      "id": 16,
+      "po_id": 16,
+      "quantity_received": 48,
+      "received_date": "2026-01-20"
+    },
+    {
+      "id": 17,
+      "po_id": 17,
+      "quantity_received": 438,
+      "received_date": "2026-07-05"
+    },
+    {
+      "id": 18,
+      "po_id": 18,
+      "quantity_received": 484,
+      "received_date": "2026-07-26"
+    },
+    {
+      "id": 19,
+      "po_id": 19,
+      "quantity_received": 119,
+      "received_date": "2026-07-17"
+    },
+    {
+      "id": 20,
+      "po_id": 20,
+      "quantity_received": 94,
+      "received_date": "2026-03-14"
+    },
+    {
+      "id": 21,
+      "po_id": 21,
+      "quantity_received": 145,
+      "received_date": "2026-08-20"
+    },
+    {
+      "id": 22,
+      "po_id": 22,
+      "quantity_received": 156,
+      "received_date": "2026-04-02"
+    },
+    {
+      "id": 23,
+      "po_id": 23,
+      "quantity_received": 306,
+      "received_date": "2026-08-10"
+    },
+    {
+      "id": 24,
+      "po_id": 24,
+      "quantity_received": 392,
+      "received_date": "2026-08-13"
+    },
+    {
+      "id": 25,
+      "po_id": 25,
+      "quantity_received": 309,
+      "received_date": "2026-01-16"
+    },
+    {
+      "id": 26,
+      "po_id": 26,
+      "quantity_received": 90,
+      "received_date": "2026-02-01"
+    },
+    {
+      "id": 27,
+      "po_id": 27,
+      "quantity_received": 51,
+      "received_date": "2026-09-13"
+    },
+    {
+      "id": 28,
+      "po_id": 28,
+      "quantity_received": 314,
+      "received_date": "2026-08-08"
+    },
+    {
+      "id": 29,
+      "po_id": 29,
+      "quantity_received": 216,
+      "received_date": "2026-05-03"
+    },
+    {
+      "id": 30,
+      "po_id": 30,
+      "quantity_received": 136,
+      "received_date": "2026-03-21"
+    },
+    {
+      "id": 31,
+      "po_id": 31,
+      "quantity_received": 299,
+      "received_date": "2026-05-03"
+    },
+    {
+      "id": 32,
+      "po_id": 32,
+      "quantity_received": 114,
+      "received_date": "2026-04-14"
+    },
+    {
+      "id": 33,
+      "po_id": 33,
+      "quantity_received": 132,
+      "received_date": "2026-02-20"
+    },
+    {
+      "id": 34,
+      "po_id": 34,
+      "quantity_received": 244,
+      "received_date": "2026-09-08"
+    },
+    {
+      "id": 35,
+      "po_id": 35,
+      "quantity_received": 14,
+      "received_date": "2026-06-27"
+    },
+    {
+      "id": 36,
+      "po_id": 36,
+      "quantity_received": 61,
+      "received_date": "2026-01-29"
+    },
+    {
+      "id": 37,
+      "po_id": 37,
+      "quantity_received": 269,
+      "received_date": "2026-06-27"
+    },
+    {
+      "id": 38,
+      "po_id": 38,
+      "quantity_received": 461,
+      "received_date": "2026-08-07"
+    },
+    {
+      "id": 39,
+      "po_id": 39,
+      "quantity_received": 159,
+      "received_date": "2026-01-29"
+    },
+    {
+      "id": 40,
+      "po_id": 40,
+      "quantity_received": 323,
+      "received_date": "2026-07-16"
+    },
+    {
+      "id": 41,
+      "po_id": 41,
+      "quantity_received": 14,
+      "received_date": "2026-02-21"
+    },
+    {
+      "id": 42,
+      "po_id": 42,
+      "quantity_received": 163,
+      "received_date": "2026-01-27"
+    },
+    {
+      "id": 43,
+      "po_id": 43,
+      "quantity_received": 490,
+      "received_date": "2026-05-24"
+    },
+    {
+      "id": 44,
+      "po_id": 44,
+      "quantity_received": 69,
+      "received_date": "2026-03-03"
+    },
+    {
+      "id": 45,
+      "po_id": 45,
+      "quantity_received": 89,
+      "received_date": "2026-07-30"
+    },
+    {
+      "id": 46,
+      "po_id": 46,
+      "quantity_received": 117,
+      "received_date": "2026-04-28"
+    },
+    {
+      "id": 47,
+      "po_id": 47,
+      "quantity_received": 361,
+      "received_date": "2026-09-11"
+    },
+    {
+      "id": 48,
+      "po_id": 48,
+      "quantity_received": 214,
+      "received_date": "2026-01-04"
+    },
+    {
+      "id": 49,
+      "po_id": 49,
+      "quantity_received": 57,
+      "received_date": "2026-08-04"
+    },
+    {
+      "id": 50,
+      "po_id": 50,
+      "quantity_received": 32,
+      "received_date": "2026-09-15"
+    },
+    {
+      "id": 51,
+      "po_id": 51,
+      "quantity_received": 389,
+      "received_date": "2026-04-13"
+    },
+    {
+      "id": 52,
+      "po_id": 52,
+      "quantity_received": 297,
+      "received_date": "2026-02-11"
+    },
+    {
+      "id": 53,
+      "po_id": 53,
+      "quantity_received": 493,
+      "received_date": "2026-08-03"
+    },
+    {
+      "id": 54,
+      "po_id": 54,
+      "quantity_received": 289,
+      "received_date": "2026-04-16"
+    },
+    {
+      "id": 55,
+      "po_id": 55,
+      "quantity_received": 308,
+      "received_date": "2026-08-23"
+    },
+    {
+      "id": 56,
+      "po_id": 56,
+      "quantity_received": 470,
+      "received_date": "2026-05-14"
+    },
+    {
+      "id": 57,
+      "po_id": 57,
+      "quantity_received": 376,
+      "received_date": "2026-09-04"
+    },
+    {
+      "id": 58,
+      "po_id": 58,
+      "quantity_received": 351,
+      "received_date": "2026-07-16"
+    },
+    {
+      "id": 59,
+      "po_id": 59,
+      "quantity_received": 462,
+      "received_date": "2026-04-08"
+    },
+    {
+      "id": 60,
+      "po_id": 60,
+      "quantity_received": 393,
+      "received_date": "2026-02-05"
+    },
+    {
+      "id": 61,
+      "po_id": 61,
+      "quantity_received": 452,
+      "received_date": "2026-06-14"
+    },
+    {
+      "id": 62,
+      "po_id": 62,
+      "quantity_received": 461,
+      "received_date": "2026-01-18"
+    },
+    {
+      "id": 63,
+      "po_id": 63,
+      "quantity_received": 309,
+      "received_date": "2026-05-10"
+    },
+    {
+      "id": 64,
+      "po_id": 64,
+      "quantity_received": 420,
+      "received_date": "2026-09-05"
+    },
+    {
+      "id": 65,
+      "po_id": 65,
+      "quantity_received": 146,
+      "received_date": "2026-03-04"
+    },
+    {
+      "id": 66,
+      "po_id": 66,
+      "quantity_received": 205,
+      "received_date": "2026-06-21"
+    },
+    {
+      "id": 67,
+      "po_id": 67,
+      "quantity_received": 166,
+      "received_date": "2026-06-16"
+    },
+    {
+      "id": 68,
+      "po_id": 68,
+      "quantity_received": 124,
+      "received_date": "2026-01-04"
+    },
+    {
+      "id": 69,
+      "po_id": 69,
+      "quantity_received": 214,
+      "received_date": "2026-01-30"
+    },
+    {
+      "id": 70,
+      "po_id": 70,
+      "quantity_received": 405,
+      "received_date": "2026-02-27"
+    },
+    {
+      "id": 71,
+      "po_id": 71,
+      "quantity_received": 214,
+      "received_date": "2026-01-14"
+    },
+    {
+      "id": 72,
+      "po_id": 72,
+      "quantity_received": 490,
+      "received_date": "2026-08-15"
+    },
+    {
+      "id": 73,
+      "po_id": 73,
+      "quantity_received": 101,
+      "received_date": "2026-02-27"
+    },
+    {
+      "id": 74,
+      "po_id": 74,
+      "quantity_received": 29,
+      "received_date": "2026-02-19"
+    },
+    {
+      "id": 75,
+      "po_id": 75,
+      "quantity_received": 148,
+      "received_date": "2026-04-30"
+    },
+    {
+      "id": 76,
+      "po_id": 76,
+      "quantity_received": 186,
+      "received_date": "2026-01-16"
+    },
+    {
+      "id": 77,
+      "po_id": 77,
+      "quantity_received": 69,
+      "received_date": "2026-03-23"
+    },
+    {
+      "id": 78,
+      "po_id": 78,
+      "quantity_received": 107,
+      "received_date": "2026-04-07"
+    },
+    {
+      "id": 79,
+      "po_id": 79,
+      "quantity_received": 8,
+      "received_date": "2026-02-09"
+    },
+    {
+      "id": 80,
+      "po_id": 80,
+      "quantity_received": 361,
+      "received_date": "2026-08-06"
+    },
+    {
+      "id": 81,
+      "po_id": 81,
+      "quantity_received": 196,
+      "received_date": "2026-08-30"
+    },
+    {
+      "id": 82,
+      "po_id": 82,
+      "quantity_received": 329,
+      "received_date": "2026-04-02"
+    },
+    {
+      "id": 83,
+      "po_id": 83,
+      "quantity_received": 378,
+      "received_date": "2026-03-10"
+    },
+    {
+      "id": 84,
+      "po_id": 84,
+      "quantity_received": 134,
+      "received_date": "2026-01-10"
+    },
+    {
+      "id": 85,
+      "po_id": 85,
+      "quantity_received": 216,
+      "received_date": "2026-05-10"
+    },
+    {
+      "id": 86,
+      "po_id": 86,
+      "quantity_received": 356,
+      "received_date": "2026-04-07"
+    },
+    {
+      "id": 87,
+      "po_id": 87,
+      "quantity_received": 325,
+      "received_date": "2026-03-03"
+    },
+    {
+      "id": 88,
+      "po_id": 88,
+      "quantity_received": 290,
+      "received_date": "2026-02-11"
+    },
+    {
+      "id": 89,
+      "po_id": 89,
+      "quantity_received": 117,
+      "received_date": "2026-01-16"
+    },
+    {
+      "id": 90,
+      "po_id": 90,
+      "quantity_received": 320,
+      "received_date": "2026-03-28"
+    },
+    {
+      "id": 91,
+      "po_id": 91,
+      "quantity_received": 236,
+      "received_date": "2026-06-28"
+    },
+    {
+      "id": 92,
+      "po_id": 92,
+      "quantity_received": 271,
+      "received_date": "2026-04-29"
+    },
+    {
+      "id": 93,
+      "po_id": 93,
+      "quantity_received": 347,
+      "received_date": "2026-03-28"
+    },
+    {
+      "id": 94,
+      "po_id": 94,
+      "quantity_received": 349,
+      "received_date": "2026-09-14"
+    },
+    {
+      "id": 95,
+      "po_id": 95,
+      "quantity_received": 429,
+      "received_date": "2026-06-04"
+    },
+    {
+      "id": 96,
+      "po_id": 96,
+      "quantity_received": 354,
+      "received_date": "2026-04-19"
+    },
+    {
+      "id": 97,
+      "po_id": 97,
+      "quantity_received": 68,
+      "received_date": "2026-04-19"
+    },
+    {
+      "id": 98,
+      "po_id": 98,
+      "quantity_received": 253,
+      "received_date": "2026-09-07"
+    },
+    {
+      "id": 99,
+      "po_id": 99,
+      "quantity_received": 243,
+      "received_date": "2026-06-05"
+    },
+    {
+      "id": 100,
+      "po_id": 100,
+      "quantity_received": 87,
+      "received_date": "2026-07-28"
+    },
+    {
+      "id": 101,
+      "po_id": 101,
+      "quantity_received": 263,
+      "received_date": "2026-01-11"
+    },
+    {
+      "id": 102,
+      "po_id": 102,
+      "quantity_received": 345,
+      "received_date": "2026-04-12"
+    },
+    {
+      "id": 103,
+      "po_id": 103,
+      "quantity_received": 408,
+      "received_date": "2026-08-14"
+    },
+    {
+      "id": 104,
+      "po_id": 104,
+      "quantity_received": 421,
+      "received_date": "2026-01-15"
+    },
+    {
+      "id": 105,
+      "po_id": 105,
+      "quantity_received": 383,
+      "received_date": "2026-06-18"
+    },
+    {
+      "id": 106,
+      "po_id": 106,
+      "quantity_received": 62,
+      "received_date": "2026-05-02"
+    },
+    {
+      "id": 107,
+      "po_id": 107,
+      "quantity_received": 236,
+      "received_date": "2026-08-24"
+    },
+    {
+      "id": 108,
+      "po_id": 108,
+      "quantity_received": 323,
+      "received_date": "2026-02-14"
+    },
+    {
+      "id": 109,
+      "po_id": 109,
+      "quantity_received": 228,
+      "received_date": "2026-08-12"
+    },
+    {
+      "id": 110,
+      "po_id": 110,
+      "quantity_received": 238,
+      "received_date": "2026-04-09"
+    },
+    {
+      "id": 111,
+      "po_id": 111,
+      "quantity_received": 240,
+      "received_date": "2026-06-19"
+    },
+    {
+      "id": 112,
+      "po_id": 112,
+      "quantity_received": 440,
+      "received_date": "2026-07-21"
+    },
+    {
+      "id": 113,
+      "po_id": 113,
+      "quantity_received": 258,
+      "received_date": "2026-03-18"
+    },
+    {
+      "id": 114,
+      "po_id": 114,
+      "quantity_received": 130,
+      "received_date": "2026-01-28"
+    },
+    {
+      "id": 115,
+      "po_id": 115,
+      "quantity_received": 467,
+      "received_date": "2026-05-09"
+    },
+    {
+      "id": 116,
+      "po_id": 116,
+      "quantity_received": 87,
+      "received_date": "2026-05-02"
+    },
+    {
+      "id": 117,
+      "po_id": 117,
+      "quantity_received": 371,
+      "received_date": "2026-02-18"
+    },
+    {
+      "id": 118,
+      "po_id": 118,
+      "quantity_received": 218,
+      "received_date": "2026-04-27"
+    },
+    {
+      "id": 119,
+      "po_id": 119,
+      "quantity_received": 222,
+      "received_date": "2026-05-01"
+    },
+    {
+      "id": 120,
+      "po_id": 120,
+      "quantity_received": 209,
+      "received_date": "2026-06-08"
+    },
+    {
+      "id": 121,
+      "po_id": 121,
+      "quantity_received": 494,
+      "received_date": "2026-06-06"
+    },
+    {
+      "id": 122,
+      "po_id": 122,
+      "quantity_received": 204,
+      "received_date": "2026-04-25"
+    },
+    {
+      "id": 123,
+      "po_id": 123,
+      "quantity_received": 162,
+      "received_date": "2026-02-19"
+    },
+    {
+      "id": 124,
+      "po_id": 124,
+      "quantity_received": 469,
+      "received_date": "2026-09-16"
+    },
+    {
+      "id": 125,
+      "po_id": 125,
+      "quantity_received": 149,
+      "received_date": "2026-03-09"
+    },
+    {
+      "id": 126,
+      "po_id": 126,
+      "quantity_received": 145,
+      "received_date": "2026-08-10"
+    },
+    {
+      "id": 127,
+      "po_id": 127,
+      "quantity_received": 380,
+      "received_date": "2026-06-07"
+    },
+    {
+      "id": 128,
+      "po_id": 128,
+      "quantity_received": 480,
+      "received_date": "2026-01-01"
+    },
+    {
+      "id": 129,
+      "po_id": 129,
+      "quantity_received": 298,
+      "received_date": "2026-03-23"
+    },
+    {
+      "id": 130,
+      "po_id": 130,
+      "quantity_received": 339,
+      "received_date": "2026-08-14"
+    },
+    {
+      "id": 131,
+      "po_id": 131,
+      "quantity_received": 103,
+      "received_date": "2026-09-12"
+    },
+    {
+      "id": 132,
+      "po_id": 132,
+      "quantity_received": 177,
+      "received_date": "2026-06-30"
+    },
+    {
+      "id": 133,
+      "po_id": 133,
+      "quantity_received": 145,
+      "received_date": "2026-06-21"
+    },
+    {
+      "id": 134,
+      "po_id": 134,
+      "quantity_received": 152,
+      "received_date": "2026-03-24"
+    },
+    {
+      "id": 135,
+      "po_id": 135,
+      "quantity_received": 139,
+      "received_date": "2026-07-03"
+    },
+    {
+      "id": 136,
+      "po_id": 136,
+      "quantity_received": 19,
+      "received_date": "2026-03-07"
+    },
+    {
+      "id": 137,
+      "po_id": 137,
+      "quantity_received": 397,
+      "received_date": "2026-02-02"
+    },
+    {
+      "id": 138,
+      "po_id": 138,
+      "quantity_received": 409,
+      "received_date": "2026-07-20"
+    },
+    {
+      "id": 139,
+      "po_id": 139,
+      "quantity_received": 396,
+      "received_date": "2026-09-03"
+    },
+    {
+      "id": 140,
+      "po_id": 140,
+      "quantity_received": 112,
+      "received_date": "2026-05-11"
+    },
+    {
+      "id": 141,
+      "po_id": 141,
+      "quantity_received": 88,
+      "received_date": "2026-04-02"
+    },
+    {
+      "id": 142,
+      "po_id": 142,
+      "quantity_received": 352,
+      "received_date": "2026-05-01"
+    },
+    {
+      "id": 143,
+      "po_id": 143,
+      "quantity_received": 248,
+      "received_date": "2026-03-19"
+    },
+    {
+      "id": 144,
+      "po_id": 144,
+      "quantity_received": 95,
+      "received_date": "2026-01-10"
+    },
+    {
+      "id": 145,
+      "po_id": 145,
+      "quantity_received": 408,
+      "received_date": "2026-04-06"
+    },
+    {
+      "id": 146,
+      "po_id": 146,
+      "quantity_received": 306,
+      "received_date": "2026-08-26"
+    },
+    {
+      "id": 147,
+      "po_id": 147,
+      "quantity_received": 356,
+      "received_date": "2026-06-26"
+    },
+    {
+      "id": 148,
+      "po_id": 148,
+      "quantity_received": 213,
+      "received_date": "2026-09-02"
+    },
+    {
+      "id": 149,
+      "po_id": 149,
+      "quantity_received": 313,
+      "received_date": "2026-03-17"
+    },
+    {
+      "id": 150,
+      "po_id": 150,
+      "quantity_received": 422,
+      "received_date": "2026-05-30"
+    },
+    {
+      "id": 151,
+      "po_id": 151,
+      "quantity_received": 410,
+      "received_date": "2026-06-05"
+    },
+    {
+      "id": 152,
+      "po_id": 152,
+      "quantity_received": 348,
+      "received_date": "2026-02-27"
+    },
+    {
+      "id": 153,
+      "po_id": 153,
+      "quantity_received": 341,
+      "received_date": "2026-01-03"
+    },
+    {
+      "id": 154,
+      "po_id": 154,
+      "quantity_received": 431,
+      "received_date": "2026-06-15"
+    },
+    {
+      "id": 155,
+      "po_id": 155,
+      "quantity_received": 372,
+      "received_date": "2026-07-21"
+    },
+    {
+      "id": 156,
+      "po_id": 156,
+      "quantity_received": 385,
+      "received_date": "2026-01-20"
+    },
+    {
+      "id": 157,
+      "po_id": 157,
+      "quantity_received": 325,
+      "received_date": "2026-04-07"
+    },
+    {
+      "id": 158,
+      "po_id": 158,
+      "quantity_received": 406,
+      "received_date": "2026-06-27"
+    },
+    {
+      "id": 159,
+      "po_id": 159,
+      "quantity_received": 152,
+      "received_date": "2026-07-26"
+    },
+    {
+      "id": 160,
+      "po_id": 160,
+      "quantity_received": 315,
+      "received_date": "2026-08-20"
+    },
+    {
+      "id": 161,
+      "po_id": 161,
+      "quantity_received": 352,
+      "received_date": "2026-06-21"
+    },
+    {
+      "id": 162,
+      "po_id": 162,
+      "quantity_received": 118,
+      "received_date": "2026-07-16"
+    },
+    {
+      "id": 163,
+      "po_id": 163,
+      "quantity_received": 184,
+      "received_date": "2026-08-01"
+    },
+    {
+      "id": 164,
+      "po_id": 164,
+      "quantity_received": 369,
+      "received_date": "2026-03-03"
+    },
+    {
+      "id": 165,
+      "po_id": 165,
+      "quantity_received": 15,
+      "received_date": "2026-07-04"
+    },
+    {
+      "id": 166,
+      "po_id": 166,
+      "quantity_received": 53,
+      "received_date": "2026-04-11"
+    },
+    {
+      "id": 167,
+      "po_id": 167,
+      "quantity_received": 260,
+      "received_date": "2026-09-05"
+    },
+    {
+      "id": 168,
+      "po_id": 168,
+      "quantity_received": 363,
+      "received_date": "2026-07-22"
+    },
+    {
+      "id": 169,
+      "po_id": 169,
+      "quantity_received": 160,
+      "received_date": "2026-04-03"
+    },
+    {
+      "id": 170,
+      "po_id": 170,
+      "quantity_received": 132,
+      "received_date": "2026-06-20"
+    },
+    {
+      "id": 171,
+      "po_id": 171,
+      "quantity_received": 252,
+      "received_date": "2026-04-21"
+    },
+    {
+      "id": 172,
+      "po_id": 172,
+      "quantity_received": 227,
+      "received_date": "2026-04-16"
+    },
+    {
+      "id": 173,
+      "po_id": 173,
+      "quantity_received": 179,
+      "received_date": "2026-05-05"
+    },
+    {
+      "id": 174,
+      "po_id": 174,
+      "quantity_received": 166,
+      "received_date": "2026-02-01"
+    },
+    {
+      "id": 175,
+      "po_id": 175,
+      "quantity_received": 379,
+      "received_date": "2026-02-28"
+    },
+    {
+      "id": 176,
+      "po_id": 176,
+      "quantity_received": 390,
+      "received_date": "2026-05-29"
+    },
+    {
+      "id": 177,
+      "po_id": 177,
+      "quantity_received": 108,
+      "received_date": "2026-03-01"
+    },
+    {
+      "id": 178,
+      "po_id": 178,
+      "quantity_received": 151,
+      "received_date": "2026-03-25"
+    },
+    {
+      "id": 179,
+      "po_id": 179,
+      "quantity_received": 154,
+      "received_date": "2026-06-11"
+    },
+    {
+      "id": 180,
+      "po_id": 180,
+      "quantity_received": 161,
+      "received_date": "2026-05-09"
+    }
+  ],
+  "invoices": [
+    {
+      "id": 1,
+      "invoice_number": "INV-31726318",
+      "vendor_id": 19,
+      "po_number": "PO-100001",
+      "amount": 14611.91,
+      "quantity": 293,
+      "unit_price": 49.87,
+      "raw_ocr_text": null,
+      "extracted_json": null,
+      "_scenario": "clean_match"
+    },
+    {
+      "id": 2,
+      "invoice_number": "INV-54547971",
+      "vendor_id": 8,
+      "po_number": "PO-100002",
+      "amount": 244.92,
+      "quantity": 13,
+      "unit_price": 18.84,
+      "raw_ocr_text": null,
+      "extracted_json": null,
+      "_scenario": "duplicate"
+    },
+    {
+      "id": 3,
+      "invoice_number": "INV-64606833",
+      "vendor_id": 2,
+      "po_number": "PO-100003",
+      "amount": 2303.78,
+      "quantity": 127,
+      "unit_price": 18.14,
+      "raw_ocr_text": null,
+      "extracted_json": null,
+      "_scenario": "clean_match"
+    },
+    {
+      "id": 4,
+      "invoice_number": "INV-64606833",
+      "vendor_id": 2,
+      "po_number": "PO-100004",
+      "amount": 31243.5,
+      "quantity": 450,
+      "unit_price": 69.43,
+      "raw_ocr_text": null,
+      "extracted_json": null,
+      "_scenario": "duplicate"
+    },
+    {
+      "id": 5,
+      "invoice_number": "INV-22097220",
+      "vendor_id": 9,
+      "po_number": "PO-100005",
+      "amount": 40342.368,
+      "quantity": 352,
+      "unit_price": 99.66,
+      "raw_ocr_text": null,
+      "extracted_json": null,
+      "_scenario": "amount_mismatch"
+    },
+    {
+      "id": 6,
+      "invoice_number": "INV-289289",
+      "vendor_id": 18,
+      "po_number": "PO-100006",
+      "amount": 12932.7275,
+      "quantity": 77,
+      "unit_price": 146.05,
+      "raw_ocr_text": null,
+      "extracted_json": null,
+      "_scenario": "amount_mismatch"
+    },
+    {
+      "id": 7,
+      "invoice_number": "INV-35594951",
+      "vendor_id": 19,
+      "po_number": "PO-100007",
+      "amount": 29636.85,
+      "quantity": 305,
+      "unit_price": 97.17,
+      "raw_ocr_text": null,
+      "extracted_json": null,
+      "_scenario": "clean_match"
+    },
+    {
+      "id": 8,
+      "invoice_number": "INV-38285503",
+      "vendor_id": 16,
+      "po_number": "PO-100008",
+      "amount": 35692.74,
+      "quantity": 423,
+      "unit_price": 84.38,
+      "raw_ocr_text": null,
+      "extracted_json": null,
+      "_scenario": "clean_match"
+    },
+    {
+      "id": 9,
+      "invoice_number": "INV-93494928",
+      "vendor_id": 4,
+      "po_number": "PO-100009",
+      "amount": 7876.5,
+      "quantity": 59,
+      "unit_price": 133.5,
+      "raw_ocr_text": null,
+      "extracted_json": null,
+      "_scenario": "clean_match"
+    },
+    {
+      "id": 10,
+      "invoice_number": "INV-88834863",
+      "vendor_id": 12,
+      "po_number": "PO-100010",
+      "amount": 19246.16,
+      "quantity": 226,
+      "unit_price": 85.16,
+      "raw_ocr_text": null,
+      "extracted_json": null,
+      "_scenario": "clean_match"
+    },
+    {
+      "id": 11,
+      "invoice_number": "INV-20776478",
+      "vendor_id": 2,
+      "po_number": "PO-100011",
+      "amount": 46876.68,
+      "quantity": 354,
+      "unit_price": 132.42,
+      "raw_ocr_text": null,
+      "extracted_json": null,
+      "_scenario": "quantity_mismatch"
+    },
+    {
+      "id": 12,
+      "invoice_number": "INV-39823450",
+      "vendor_id": 4,
+      "po_number": "PO-100012",
+      "amount": 3423.91,
+      "quantity": 41,
+      "unit_price": 83.51,
+      "raw_ocr_text": null,
+      "extracted_json": null,
+      "_scenario": "closed_po"
+    },
+    {
+      "id": 13,
+      "invoice_number": "INV-7849494",
+      "vendor_id": 11,
+      "po_number": "PO-100013",
+      "amount": 83374.5055,
+      "quantity": 419,
+      "unit_price": 173.03,
+      "raw_ocr_text": null,
+      "extracted_json": null,
+      "_scenario": "amount_mismatch"
+    },
+    {
+      "id": 14,
+      "invoice_number": "INV-98748972",
+      "vendor_id": 8,
+      "po_number": "PO-100014",
+      "amount": 4545.72,
+      "quantity": 108,
+      "unit_price": 42.09,
+      "raw_ocr_text": null,
+      "extracted_json": null,
+      "_scenario": "clean_match"
+    },
+    {
+      "id": 15,
+      "invoice_number": "INV-72772208",
+      "vendor_id": 15,
+      "po_number": "PO-900015",
+      "amount": 506.53,
+      "quantity": 16,
+      "unit_price": 31.66,
+      "raw_ocr_text": null,
+      "extracted_json": null,
+      "_scenario": "no_matching_po"
+    },
+    {
+      "id": 16,
+      "invoice_number": "INV-8181586",
+      "vendor_id": 9,
+      "po_number": "PO-900016",
+      "amount": 1441.62,
+      "quantity": 9,
+      "unit_price": 160.18,
+      "raw_ocr_text": null,
+      "extracted_json": null,
+      "_scenario": "no_matching_po"
+    },
+    {
+      "id": 17,
+      "invoice_number": "INV-7672593",
+      "vendor_id": 15,
+      "po_number": "PO-100015",
+      "amount": 73162.08,
+      "quantity": 423,
+      "unit_price": 172.96,
+      "raw_ocr_text": null,
+      "extracted_json": null,
+      "_scenario": "clean_match"
+    },
+    {
+      "id": 18,
+      "invoice_number": "INV-78406989",
+      "vendor_id": 18,
+      "po_number": "PO-100016",
+      "amount": 891.6,
+      "quantity": 60,
+      "unit_price": 14.86,
+      "raw_ocr_text": null,
+      "extracted_json": null,
+      "_scenario": "quantity_mismatch"
+    },
+    {
+      "id": 19,
+      "invoice_number": "INV-67491435",
+      "vendor_id": 18,
+      "po_number": "PO-100017",
+      "amount": 3451.44,
+      "quantity": 438,
+      "unit_price": 7.88,
+      "raw_ocr_text": null,
+      "extracted_json": null,
+      "_scenario": "clean_match"
+    },
+    {
+      "id": 20,
+      "invoice_number": "INV-21130263",
+      "vendor_id": 3,
+      "po_number": "PO-100018",
+      "amount": 73543.8,
+      "quantity": 484,
+      "unit_price": 151.95,
+      "raw_ocr_text": null,
+      "extracted_json": null,
+      "_scenario": "clean_match"
+    },
+    {
+      "id": 21,
+      "invoice_number": "INV-7634247",
+      "vendor_id": 8,
+      "po_number": "PO-900021",
+      "amount": 582.3,
+      "quantity": 36,
+      "unit_price": 16.17,
+      "raw_ocr_text": null,
+      "extracted_json": null,
+      "_scenario": "no_matching_po"
+    },
+    {
+      "id": 22,
+      "invoice_number": "INV-10752378",
+      "vendor_id": 16,
+      "po_number": "PO-100019",
+      "amount": 20659.59,
+      "quantity": 119,
+      "unit_price": 173.61,
+      "raw_ocr_text": null,
+      "extracted_json": null,
+      "_scenario": "clean_match"
+    },
+    {
+      "id": 23,
+      "invoice_number": "INV-9196777",
+      "vendor_id": 2,
+      "po_number": "PO-100020",
+      "amount": 7416.6,
+      "quantity": 94,
+      "unit_price": 78.9,
+      "raw_ocr_text": null,
+      "extracted_json": null,
+      "_scenario": "clean_match"
+    },
+    {
+      "id": 24,
+      "invoice_number": "INV-9121552",
+      "vendor_id": 13,
+      "po_number": "PO-100021",
+      "amount": 30960.4725,
+      "quantity": 145,
+      "unit_price": 185.67,
+      "raw_ocr_text": null,
+      "extracted_json": null,
+      "_scenario": "amount_mismatch"
+    },
+    {
+      "id": 25,
+      "invoice_number": "INV-7672593",
+      "vendor_id": 15,
+      "po_number": "PO-100022",
+      "amount": 13648.44,
+      "quantity": 156,
+      "unit_price": 87.49,
+      "raw_ocr_text": null,
+      "extracted_json": null,
+      "_scenario": "duplicate"
+    },
+    {
+      "id": 26,
+      "invoice_number": "INV-16090908",
+      "vendor_id": 5,
+      "po_number": "PO-900026",
+      "amount": 650.7,
+      "quantity": 18,
+      "unit_price": 36.15,
+      "raw_ocr_text": null,
+      "extracted_json": null,
+      "_scenario": "no_matching_po"
+    },
+    {
+      "id": 27,
+      "invoice_number": "INV-33046464",
+      "vendor_id": 2,
+      "po_number": "PO-100023",
+      "amount": 45431.82,
+      "quantity": 306,
+      "unit_price": 148.47,
+      "raw_ocr_text": null,
+      "extracted_json": null,
+      "_scenario": "clean_match"
+    },
+    {
+      "id": 28,
+      "invoice_number": "INV-79795010",
+      "vendor_id": 2,
+      "po_number": "PO-100024",
+      "amount": 29820.42,
+      "quantity": 392,
+      "unit_price": 66.15,
+      "raw_ocr_text": null,
+      "extracted_json": null,
+      "_scenario": "amount_mismatch"
+    },
+    {
+      "id": 29,
+      "invoice_number": "INV-83131979",
+      "vendor_id": 2,
+      "po_number": "PO-100025",
+      "amount": 30272.73,
+      "quantity": 309,
+      "unit_price": 97.97,
+      "raw_ocr_text": null,
+      "extracted_json": null,
+      "_scenario": "clean_match"
+    },
+    {
+      "id": 30,
+      "invoice_number": "INV-56267415",
+      "vendor_id": 17,
+      "po_number": "PO-100026",
+      "amount": 1448.1,
+      "quantity": 90,
+      "unit_price": 16.09,
+      "raw_ocr_text": null,
+      "extracted_json": null,
+      "_scenario": "duplicate"
+    },
+    {
+      "id": 31,
+      "invoice_number": "INV-78339168",
+      "vendor_id": 17,
+      "po_number": "PO-100027",
+      "amount": 8721.51,
+      "quantity": 51,
+      "unit_price": 171.01,
+      "raw_ocr_text": null,
+      "extracted_json": null,
+      "_scenario": "clean_match"
+    },
+    {
+      "id": 32,
+      "invoice_number": "INV-70166708",
+      "vendor_id": 3,
+      "po_number": "PO-100028",
+      "amount": 6590.075,
+      "quantity": 314,
+      "unit_price": 18.25,
+      "raw_ocr_text": null,
+      "extracted_json": null,
+      "_scenario": "amount_mismatch"
+    },
+    {
+      "id": 33,
+      "invoice_number": "INV-34999379",
+      "vendor_id": 8,
+      "po_number": "PO-100029",
+      "amount": 6130.08,
+      "quantity": 216,
+      "unit_price": 28.38,
+      "raw_ocr_text": null,
+      "extracted_json": null,
+      "_scenario": "clean_match"
+    },
+    {
+      "id": 34,
+      "invoice_number": "INV-89889098",
+      "vendor_id": 19,
+      "po_number": "PO-100030",
+      "amount": 16033.04,
+      "quantity": 136,
+      "unit_price": 117.89,
+      "raw_ocr_text": null,
+      "extracted_json": null,
+      "_scenario": "clean_match"
+    },
+    {
+      "id": 35,
+      "invoice_number": "INV-96125636",
+      "vendor_id": 2,
+      "po_number": "PO-900035",
+      "amount": 1896.21,
+      "quantity": 31,
+      "unit_price": 61.17,
+      "raw_ocr_text": null,
+      "extracted_json": null,
+      "_scenario": "no_matching_po"
+    },
+    {
+      "id": 36,
+      "invoice_number": "INV-32035886",
+      "vendor_id": 19,
+      "po_number": "PO-100031",
+      "amount": 31975.06,
+      "quantity": 299,
+      "unit_price": 106.94,
+      "raw_ocr_text": null,
+      "extracted_json": null,
+      "_scenario": "clean_match"
+    },
+    {
+      "id": 37,
+      "invoice_number": "INV-53121477",
+      "vendor_id": 9,
+      "po_number": "PO-100032",
+      "amount": 15458.4,
+      "quantity": 114,
+      "unit_price": 135.6,
+      "raw_ocr_text": null,
+      "extracted_json": null,
+      "_scenario": "clean_match"
+    },
+    {
+      "id": 38,
+      "invoice_number": "INV-7849494",
+      "vendor_id": 11,
+      "po_number": "PO-100033",
+      "amount": 7496.28,
+      "quantity": 132,
+      "unit_price": 56.79,
+      "raw_ocr_text": null,
+      "extracted_json": null,
+      "_scenario": "duplicate"
+    },
+    {
+      "id": 39,
+      "invoice_number": "INV-40264926",
+      "vendor_id": 10,
+      "po_number": "PO-100034",
+      "amount": 16262.6,
+      "quantity": 244,
+      "unit_price": 66.65,
+      "raw_ocr_text": null,
+      "extracted_json": null,
+      "_scenario": "clean_match"
+    },
+    {
+      "id": 40,
+      "invoice_number": "INV-42436584",
+      "vendor_id": 3,
+      "po_number": "PO-100035",
+      "amount": 1321.18,
+      "quantity": 14,
+      "unit_price": 94.37,
+      "raw_ocr_text": null,
+      "extracted_json": null,
+      "_scenario": "closed_po"
+    },
+    {
+      "id": 41,
+      "invoice_number": "INV-1250299",
+      "vendor_id": 19,
+      "po_number": "PO-100036",
+      "amount": 1176.69,
+      "quantity": 61,
+      "unit_price": 19.29,
+      "raw_ocr_text": null,
+      "extracted_json": null,
+      "_scenario": "closed_po"
+    },
+    {
+      "id": 42,
+      "invoice_number": "INV-83370583",
+      "vendor_id": 7,
+      "po_number": "PO-100037",
+      "amount": 15254.99,
+      "quantity": 269,
+      "unit_price": 56.71,
+      "raw_ocr_text": null,
+      "extracted_json": null,
+      "_scenario": "clean_match"
+    },
+    {
+      "id": 43,
+      "invoice_number": "INV-13419256",
+      "vendor_id": 12,
+      "po_number": "PO-100038",
+      "amount": 8487.01,
+      "quantity": 461,
+      "unit_price": 18.41,
+      "raw_ocr_text": null,
+      "extracted_json": null,
+      "_scenario": "clean_match"
+    },
+    {
+      "id": 44,
+      "invoice_number": "INV-72160068",
+      "vendor_id": 8,
+      "po_number": "PO-100039",
+      "amount": 12053.43,
+      "quantity": 199,
+      "unit_price": 60.57,
+      "raw_ocr_text": null,
+      "extracted_json": null,
+      "_scenario": "quantity_mismatch"
+    },
+    {
+      "id": 45,
+      "invoice_number": "INV-28609087",
+      "vendor_id": 15,
+      "po_number": "PO-900045",
+      "amount": 2517.86,
+      "quantity": 50,
+      "unit_price": 50.36,
+      "raw_ocr_text": null,
+      "extracted_json": null,
+      "_scenario": "no_matching_po"
+    },
+    {
+      "id": 46,
+      "invoice_number": "INV-35594597",
+      "vendor_id": 10,
+      "po_number": "PO-100040",
+      "amount": 63582.55,
+      "quantity": 323,
+      "unit_price": 196.85,
+      "raw_ocr_text": null,
+      "extracted_json": null,
+      "_scenario": "clean_match"
+    },
+    {
+      "id": 47,
+      "invoice_number": "INV-46843172",
+      "vendor_id": 17,
+      "po_number": "PO-100041",
+      "amount": 2177.203,
+      "quantity": 14,
+      "unit_price": 135.23,
+      "raw_ocr_text": null,
+      "extracted_json": null,
+      "_scenario": "amount_mismatch"
+    },
+    {
+      "id": 48,
+      "invoice_number": "INV-32787299",
+      "vendor_id": 18,
+      "po_number": "PO-100042",
+      "amount": 30430.47,
+      "quantity": 163,
+      "unit_price": 186.69,
+      "raw_ocr_text": null,
+      "extracted_json": null,
+      "_scenario": "clean_match"
+    },
+    {
+      "id": 49,
+      "invoice_number": "INV-38250360",
+      "vendor_id": 4,
+      "po_number": "PO-100043",
+      "amount": 86352.7,
+      "quantity": 490,
+      "unit_price": 176.23,
+      "raw_ocr_text": null,
+      "extracted_json": null,
+      "_scenario": "clean_match"
+    },
+    {
+      "id": 50,
+      "invoice_number": "INV-58812137",
+      "vendor_id": 9,
+      "po_number": "PO-100044",
+      "amount": 14163.1815,
+      "quantity": 69,
+      "unit_price": 178.49,
+      "raw_ocr_text": null,
+      "extracted_json": null,
+      "_scenario": "amount_mismatch"
+    },
+    {
+      "id": 51,
+      "invoice_number": "INV-94427530",
+      "vendor_id": 18,
+      "po_number": "PO-100045",
+      "amount": 5171.79,
+      "quantity": 89,
+      "unit_price": 58.11,
+      "raw_ocr_text": null,
+      "extracted_json": null,
+      "_scenario": "clean_match"
+    },
+    {
+      "id": 52,
+      "invoice_number": "INV-82097999",
+      "vendor_id": 20,
+      "po_number": "PO-100046",
+      "amount": 16956.81,
+      "quantity": 117,
+      "unit_price": 144.93,
+      "raw_ocr_text": null,
+      "extracted_json": null,
+      "_scenario": "clean_match"
+    },
+    {
+      "id": 53,
+      "invoice_number": "INV-70993218",
+      "vendor_id": 7,
+      "po_number": "PO-100047",
+      "amount": 46453.48,
+      "quantity": 361,
+      "unit_price": 128.68,
+      "raw_ocr_text": null,
+      "extracted_json": null,
+      "_scenario": "clean_match"
+    },
+    {
+      "id": 54,
+      "invoice_number": "INV-89639081",
+      "vendor_id": 9,
+      "po_number": "PO-100048",
+      "amount": 26869.68,
+      "quantity": 268,
+      "unit_price": 100.26,
+      "raw_ocr_text": null,
+      "extracted_json": null,
+      "_scenario": "quantity_mismatch"
+    },
+    {
+      "id": 55,
+      "invoice_number": "INV-40181935",
+      "vendor_id": 2,
+      "po_number": "PO-100049",
+      "amount": 7335.33,
+      "quantity": 57,
+      "unit_price": 128.69,
+      "raw_ocr_text": null,
+      "extracted_json": null,
+      "_scenario": "clean_match"
+    },
+    {
+      "id": 56,
+      "invoice_number": "INV-13903144",
+      "vendor_id": 9,
+      "po_number": "PO-100050",
+      "amount": 182.08,
+      "quantity": 32,
+      "unit_price": 5.69,
+      "raw_ocr_text": null,
+      "extracted_json": null,
+      "_scenario": "clean_match"
+    },
+    {
+      "id": 57,
+      "invoice_number": "INV-18024248",
+      "vendor_id": 5,
+      "po_number": "PO-900057",
+      "amount": 1947.63,
+      "quantity": 21,
+      "unit_price": 92.74,
+      "raw_ocr_text": null,
+      "extracted_json": null,
+      "_scenario": "no_matching_po"
+    },
+    {
+      "id": 58,
+      "invoice_number": "INV-15492573",
+      "vendor_id": 6,
+      "po_number": "PO-100051",
+      "amount": 35461.24,
+      "quantity": 389,
+      "unit_price": 91.16,
+      "raw_ocr_text": null,
+      "extracted_json": null,
+      "_scenario": "duplicate"
+    },
+    {
+      "id": 59,
+      "invoice_number": "INV-99645480",
+      "vendor_id": 14,
+      "po_number": "PO-100052",
+      "amount": 2046.33,
+      "quantity": 297,
+      "unit_price": 6.89,
+      "raw_ocr_text": null,
+      "extracted_json": null,
+      "_scenario": "clean_match"
+    },
+    {
+      "id": 60,
+      "invoice_number": "INV-20863865",
+      "vendor_id": 3,
+      "po_number": "PO-100053",
+      "amount": 87364.53,
+      "quantity": 493,
+      "unit_price": 177.21,
+      "raw_ocr_text": null,
+      "extracted_json": null,
+      "_scenario": "clean_match"
+    },
+    {
+      "id": 61,
+      "invoice_number": "INV-37816686",
+      "vendor_id": 5,
+      "po_number": "PO-100054",
+      "amount": 3476.67,
+      "quantity": 289,
+      "unit_price": 12.03,
+      "raw_ocr_text": null,
+      "extracted_json": null,
+      "_scenario": "clean_match"
+    },
+    {
+      "id": 62,
+      "invoice_number": "INV-28270233",
+      "vendor_id": 12,
+      "po_number": "PO-100055",
+      "amount": 34723.92,
+      "quantity": 308,
+      "unit_price": 112.74,
+      "raw_ocr_text": null,
+      "extracted_json": null,
+      "_scenario": "clean_match"
+    },
+    {
+      "id": 63,
+      "invoice_number": "INV-96316277",
+      "vendor_id": 14,
+      "po_number": "PO-900063",
+      "amount": 469.59,
+      "quantity": 24,
+      "unit_price": 19.57,
+      "raw_ocr_text": null,
+      "extracted_json": null,
+      "_scenario": "no_matching_po"
+    },
+    {
+      "id": 64,
+      "invoice_number": "INV-27326368",
+      "vendor_id": 12,
+      "po_number": "PO-100056",
+      "amount": 87866.5,
+      "quantity": 470,
+      "unit_price": 186.95,
+      "raw_ocr_text": null,
+      "extracted_json": null,
+      "_scenario": "closed_po"
+    },
+    {
+      "id": 65,
+      "invoice_number": "INV-35431319",
+      "vendor_id": 2,
+      "po_number": "PO-100057",
+      "amount": 35141.9,
+      "quantity": 470,
+      "unit_price": 74.77,
+      "raw_ocr_text": null,
+      "extracted_json": null,
+      "_scenario": "quantity_mismatch"
+    },
+    {
+      "id": 66,
+      "invoice_number": "INV-65569635",
+      "vendor_id": 8,
+      "po_number": "PO-100058",
+      "amount": 8789.04,
+      "quantity": 351,
+      "unit_price": 25.04,
+      "raw_ocr_text": null,
+      "extracted_json": null,
+      "_scenario": "clean_match"
+    },
+    {
+      "id": 67,
+      "invoice_number": "INV-6818112",
+      "vendor_id": 18,
+      "po_number": "PO-100059",
+      "amount": 93280.341,
+      "quantity": 462,
+      "unit_price": 175.57,
+      "raw_ocr_text": null,
+      "extracted_json": null,
+      "_scenario": "amount_mismatch"
+    },
+    {
+      "id": 68,
+      "invoice_number": "INV-85132217",
+      "vendor_id": 20,
+      "po_number": "PO-100060",
+      "amount": 13810.02,
+      "quantity": 393,
+      "unit_price": 35.14,
+      "raw_ocr_text": null,
+      "extracted_json": null,
+      "_scenario": "clean_match"
+    },
+    {
+      "id": 69,
+      "invoice_number": "INV-37135391",
+      "vendor_id": 8,
+      "po_number": "PO-100061",
+      "amount": 16583.88,
+      "quantity": 452,
+      "unit_price": 36.69,
+      "raw_ocr_text": null,
+      "extracted_json": null,
+      "_scenario": "clean_match"
+    },
+    {
+      "id": 70,
+      "invoice_number": "INV-475894",
+      "vendor_id": 6,
+      "po_number": "PO-100062",
+      "amount": 39369.4,
+      "quantity": 461,
+      "unit_price": 85.4,
+      "raw_ocr_text": null,
+      "extracted_json": null,
+      "_scenario": "closed_po"
+    },
+    {
+      "id": 71,
+      "invoice_number": "INV-17558317",
+      "vendor_id": 6,
+      "po_number": "PO-100063",
+      "amount": 71703.36,
+      "quantity": 387,
+      "unit_price": 185.28,
+      "raw_ocr_text": null,
+      "extracted_json": null,
+      "_scenario": "quantity_mismatch"
+    },
+    {
+      "id": 72,
+      "invoice_number": "INV-35159040",
+      "vendor_id": 14,
+      "po_number": "PO-100064",
+      "amount": 56964.6,
+      "quantity": 420,
+      "unit_price": 135.63,
+      "raw_ocr_text": null,
+      "extracted_json": null,
+      "_scenario": "closed_po"
+    },
+    {
+      "id": 73,
+      "invoice_number": "INV-99486328",
+      "vendor_id": 8,
+      "po_number": "PO-100065",
+      "amount": 5261.84,
+      "quantity": 146,
+      "unit_price": 36.04,
+      "raw_ocr_text": null,
+      "extracted_json": null,
+      "_scenario": "clean_match"
+    },
+    {
+      "id": 74,
+      "invoice_number": "INV-74045292",
+      "vendor_id": 4,
+      "po_number": "PO-100066",
+      "amount": 35889.35,
+      "quantity": 205,
+      "unit_price": 175.07,
+      "raw_ocr_text": null,
+      "extracted_json": null,
+      "_scenario": "clean_match"
+    },
+    {
+      "id": 75,
+      "invoice_number": "INV-94713081",
+      "vendor_id": 16,
+      "po_number": "PO-900075",
+      "amount": 745.06,
+      "quantity": 34,
+      "unit_price": 21.91,
+      "raw_ocr_text": null,
+      "extracted_json": null,
+      "_scenario": "no_matching_po"
+    },
+    {
+      "id": 76,
+      "invoice_number": "INV-75283645",
+      "vendor_id": 12,
+      "po_number": "PO-100067",
+      "amount": 27390.0,
+      "quantity": 166,
+      "unit_price": 165.0,
+      "raw_ocr_text": null,
+      "extracted_json": null,
+      "_scenario": "clean_match"
+    },
+    {
+      "id": 77,
+      "invoice_number": "INV-15015458",
+      "vendor_id": 8,
+      "po_number": "PO-100068",
+      "amount": 1191.64,
+      "quantity": 124,
+      "unit_price": 9.61,
+      "raw_ocr_text": null,
+      "extracted_json": null,
+      "_scenario": "clean_match"
+    },
+    {
+      "id": 78,
+      "invoice_number": "INV-92747083",
+      "vendor_id": 7,
+      "po_number": "PO-100069",
+      "amount": 14768.14,
+      "quantity": 214,
+      "unit_price": 69.01,
+      "raw_ocr_text": null,
+      "extracted_json": null,
+      "_scenario": "clean_match"
+    },
+    {
+      "id": 79,
+      "invoice_number": "INV-73227889",
+      "vendor_id": 3,
+      "po_number": "PO-100070",
+      "amount": 24069.15,
+      "quantity": 405,
+      "unit_price": 59.43,
+      "raw_ocr_text": null,
+      "extracted_json": null,
+      "_scenario": "clean_match"
+    },
+    {
+      "id": 80,
+      "invoice_number": "INV-46843172",
+      "vendor_id": 17,
+      "po_number": "PO-100071",
+      "amount": 29427.14,
+      "quantity": 214,
+      "unit_price": 137.51,
+      "raw_ocr_text": null,
+      "extracted_json": null,
+      "_scenario": "duplicate"
+    },
+    {
+      "id": 81,
+      "invoice_number": "INV-74158663",
+      "vendor_id": 11,
+      "po_number": "PO-100072",
+      "amount": 5086.2,
+      "quantity": 490,
+      "unit_price": 10.38,
+      "raw_ocr_text": null,
+      "extracted_json": null,
+      "_scenario": "clean_match"
+    },
+    {
+      "id": 82,
+      "invoice_number": "INV-57684996",
+      "vendor_id": 9,
+      "po_number": "PO-100073",
+      "amount": 13730.0915,
+      "quantity": 101,
+      "unit_price": 118.21,
+      "raw_ocr_text": null,
+      "extracted_json": null,
+      "_scenario": "amount_mismatch"
+    },
+    {
+      "id": 83,
+      "invoice_number": "INV-5614174",
+      "vendor_id": 9,
+      "po_number": "PO-100074",
+      "amount": 758.06,
+      "quantity": 29,
+      "unit_price": 26.14,
+      "raw_ocr_text": null,
+      "extracted_json": null,
+      "_scenario": "clean_match"
+    },
+    {
+      "id": 84,
+      "invoice_number": "INV-48942697",
+      "vendor_id": 14,
+      "po_number": "PO-100075",
+      "amount": 27355.02,
+      "quantity": 186,
+      "unit_price": 147.07,
+      "raw_ocr_text": null,
+      "extracted_json": null,
+      "_scenario": "quantity_mismatch"
+    },
+    {
+      "id": 85,
+      "invoice_number": "INV-48024342",
+      "vendor_id": 11,
+      "po_number": "PO-100076",
+      "amount": 28707.93,
+      "quantity": 233,
+      "unit_price": 123.21,
+      "raw_ocr_text": null,
+      "extracted_json": null,
+      "_scenario": "quantity_mismatch"
+    },
+    {
+      "id": 86,
+      "invoice_number": "INV-91545441",
+      "vendor_id": 17,
+      "po_number": "PO-100077",
+      "amount": 5527.59,
+      "quantity": 69,
+      "unit_price": 80.11,
+      "raw_ocr_text": null,
+      "extracted_json": null,
+      "_scenario": "clean_match"
+    },
+    {
+      "id": 87,
+      "invoice_number": "INV-89514287",
+      "vendor_id": 19,
+      "po_number": "PO-100078",
+      "amount": 5849.69,
+      "quantity": 107,
+      "unit_price": 54.67,
+      "raw_ocr_text": null,
+      "extracted_json": null,
+      "_scenario": "clean_match"
+    },
+    {
+      "id": 88,
+      "invoice_number": "INV-47469942",
+      "vendor_id": 14,
+      "po_number": "PO-100079",
+      "amount": 1063.8,
+      "quantity": 10,
+      "unit_price": 106.38,
+      "raw_ocr_text": null,
+      "extracted_json": null,
+      "_scenario": "quantity_mismatch"
+    },
+    {
+      "id": 89,
+      "invoice_number": "INV-54543049",
+      "vendor_id": 18,
+      "po_number": "PO-100080",
+      "amount": 60317.1435,
+      "quantity": 361,
+      "unit_price": 145.29,
+      "raw_ocr_text": null,
+      "extracted_json": null,
+      "_scenario": "amount_mismatch"
+    },
+    {
+      "id": 90,
+      "invoice_number": "INV-20743797",
+      "vendor_id": 7,
+      "po_number": "PO-100081",
+      "amount": 17463.6,
+      "quantity": 196,
+      "unit_price": 89.1,
+      "raw_ocr_text": null,
+      "extracted_json": null,
+      "_scenario": "closed_po"
+    },
+    {
+      "id": 91,
+      "invoice_number": "INV-21810617",
+      "vendor_id": 11,
+      "po_number": "PO-100082",
+      "amount": 21783.09,
+      "quantity": 329,
+      "unit_price": 66.21,
+      "raw_ocr_text": null,
+      "extracted_json": null,
+      "_scenario": "clean_match"
+    },
+    {
+      "id": 92,
+      "invoice_number": "INV-55337219",
+      "vendor_id": 4,
+      "po_number": "PO-100083",
+      "amount": 68232.78,
+      "quantity": 378,
+      "unit_price": 180.51,
+      "raw_ocr_text": null,
+      "extracted_json": null,
+      "_scenario": "clean_match"
+    },
+    {
+      "id": 93,
+      "invoice_number": "INV-24073380",
+      "vendor_id": 17,
+      "po_number": "PO-100084",
+      "amount": 22686.72,
+      "quantity": 168,
+      "unit_price": 135.04,
+      "raw_ocr_text": null,
+      "extracted_json": null,
+      "_scenario": "quantity_mismatch"
+    },
+    {
+      "id": 94,
+      "invoice_number": "INV-55259205",
+      "vendor_id": 11,
+      "po_number": "PO-100085",
+      "amount": 30447.36,
+      "quantity": 216,
+      "unit_price": 140.96,
+      "raw_ocr_text": null,
+      "extracted_json": null,
+      "_scenario": "clean_match"
+    },
+    {
+      "id": 95,
+      "invoice_number": "INV-89913412",
+      "vendor_id": 18,
+      "po_number": "PO-900095",
+      "amount": 469.13,
+      "quantity": 31,
+      "unit_price": 15.13,
+      "raw_ocr_text": null,
+      "extracted_json": null,
+      "_scenario": "no_matching_po"
+    },
+    {
+      "id": 96,
+      "invoice_number": "INV-35810056",
+      "vendor_id": 13,
+      "po_number": "PO-100086",
+      "amount": 53716.84,
+      "quantity": 356,
+      "unit_price": 150.89,
+      "raw_ocr_text": null,
+      "extracted_json": null,
+      "_scenario": "clean_match"
+    },
+    {
+      "id": 97,
+      "invoice_number": "INV-94123965",
+      "vendor_id": 6,
+      "po_number": "PO-100087",
+      "amount": 37693.5,
+      "quantity": 325,
+      "unit_price": 115.98,
+      "raw_ocr_text": null,
+      "extracted_json": null,
+      "_scenario": "clean_match"
+    },
+    {
+      "id": 98,
+      "invoice_number": "INV-35810056",
+      "vendor_id": 13,
+      "po_number": "PO-100088",
+      "amount": 48598.2,
+      "quantity": 290,
+      "unit_price": 167.58,
+      "raw_ocr_text": null,
+      "extracted_json": null,
+      "_scenario": "duplicate"
+    },
+    {
+      "id": 99,
+      "invoice_number": "INV-63174945",
+      "vendor_id": 10,
+      "po_number": "PO-100089",
+      "amount": 11952.0765,
+      "quantity": 117,
+      "unit_price": 88.83,
+      "raw_ocr_text": null,
+      "extracted_json": null,
+      "_scenario": "amount_mismatch"
+    },
+    {
+      "id": 100,
+      "invoice_number": "INV-26786211",
+      "vendor_id": 19,
+      "po_number": "PO-100090",
+      "amount": 42454.4,
+      "quantity": 320,
+      "unit_price": 132.67,
+      "raw_ocr_text": null,
+      "extracted_json": null,
+      "_scenario": "clean_match"
+    },
+    {
+      "id": 101,
+      "invoice_number": "INV-46930359",
+      "vendor_id": 15,
+      "po_number": "PO-100091",
+      "amount": 21527.92,
+      "quantity": 236,
+      "unit_price": 91.22,
+      "raw_ocr_text": null,
+      "extracted_json": null,
+      "_scenario": "closed_po"
+    },
+    {
+      "id": 102,
+      "invoice_number": "INV-30547349",
+      "vendor_id": 7,
+      "po_number": "PO-100092",
+      "amount": 26360.17,
+      "quantity": 271,
+      "unit_price": 97.27,
+      "raw_ocr_text": null,
+      "extracted_json": null,
+      "_scenario": "clean_match"
+    },
+    {
+      "id": 103,
+      "invoice_number": "INV-3176186",
+      "vendor_id": 6,
+      "po_number": "PO-100093",
+      "amount": 7474.38,
+      "quantity": 347,
+      "unit_price": 21.54,
+      "raw_ocr_text": null,
+      "extracted_json": null,
+      "_scenario": "clean_match"
+    },
+    {
+      "id": 104,
+      "invoice_number": "INV-46843172",
+      "vendor_id": 17,
+      "po_number": "PO-100094",
+      "amount": 44818.58,
+      "quantity": 349,
+      "unit_price": 128.42,
+      "raw_ocr_text": null,
+      "extracted_json": null,
+      "_scenario": "duplicate"
+    },
+    {
+      "id": 105,
+      "invoice_number": "INV-44058573",
+      "vendor_id": 3,
+      "po_number": "PO-100095",
+      "amount": 81784.56,
+      "quantity": 429,
+      "unit_price": 190.64,
+      "raw_ocr_text": null,
+      "extracted_json": null,
+      "_scenario": "clean_match"
+    },
+    {
+      "id": 106,
+      "invoice_number": "INV-9317495",
+      "vendor_id": 8,
+      "po_number": "PO-100096",
+      "amount": 23197.62,
+      "quantity": 354,
+      "unit_price": 65.53,
+      "raw_ocr_text": null,
+      "extracted_json": null,
+      "_scenario": "clean_match"
+    },
+    {
+      "id": 107,
+      "invoice_number": "INV-47130035",
+      "vendor_id": 7,
+      "po_number": "PO-100097",
+      "amount": 829.6,
+      "quantity": 85,
+      "unit_price": 9.76,
+      "raw_ocr_text": null,
+      "extracted_json": null,
+      "_scenario": "quantity_mismatch"
+    },
+    {
+      "id": 108,
+      "invoice_number": "INV-68371272",
+      "vendor_id": 8,
+      "po_number": "PO-100098",
+      "amount": 36135.99,
+      "quantity": 253,
+      "unit_price": 124.2,
+      "raw_ocr_text": null,
+      "extracted_json": null,
+      "_scenario": "amount_mismatch"
+    },
+    {
+      "id": 109,
+      "invoice_number": "INV-44058573",
+      "vendor_id": 3,
+      "po_number": "PO-100099",
+      "amount": 20854.26,
+      "quantity": 243,
+      "unit_price": 85.82,
+      "raw_ocr_text": null,
+      "extracted_json": null,
+      "_scenario": "duplicate"
+    },
+    {
+      "id": 110,
+      "invoice_number": "INV-44446182",
+      "vendor_id": 19,
+      "po_number": "PO-100100",
+      "amount": 15813.72,
+      "quantity": 109,
+      "unit_price": 145.08,
+      "raw_ocr_text": null,
+      "extracted_json": null,
+      "_scenario": "quantity_mismatch"
+    },
+    {
+      "id": 111,
+      "invoice_number": "INV-15480907",
+      "vendor_id": 13,
+      "po_number": "PO-100101",
+      "amount": 21810.59,
+      "quantity": 263,
+      "unit_price": 82.93,
+      "raw_ocr_text": null,
+      "extracted_json": null,
+      "_scenario": "closed_po"
+    },
+    {
+      "id": 112,
+      "invoice_number": "INV-23966966",
+      "vendor_id": 5,
+      "po_number": "PO-100102",
+      "amount": 55183.9575,
+      "quantity": 345,
+      "unit_price": 139.09,
+      "raw_ocr_text": null,
+      "extracted_json": null,
+      "_scenario": "amount_mismatch"
+    },
+    {
+      "id": 113,
+      "invoice_number": "INV-35630292",
+      "vendor_id": 4,
+      "po_number": "PO-100103",
+      "amount": 35863.2,
+      "quantity": 408,
+      "unit_price": 87.9,
+      "raw_ocr_text": null,
+      "extracted_json": null,
+      "_scenario": "clean_match"
+    },
+    {
+      "id": 114,
+      "invoice_number": "INV-14549543",
+      "vendor_id": 6,
+      "po_number": "PO-100104",
+      "amount": 80747.8,
+      "quantity": 421,
+      "unit_price": 191.8,
+      "raw_ocr_text": null,
+      "extracted_json": null,
+      "_scenario": "clean_match"
+    },
+    {
+      "id": 115,
+      "invoice_number": "INV-80070438",
+      "vendor_id": 17,
+      "po_number": "PO-900115",
+      "amount": 1447.19,
+      "quantity": 40,
+      "unit_price": 36.18,
+      "raw_ocr_text": null,
+      "extracted_json": null,
+      "_scenario": "no_matching_po"
+    },
+    {
+      "id": 116,
+      "invoice_number": "INV-46397338",
+      "vendor_id": 8,
+      "po_number": "PO-100105",
+      "amount": 81635.97,
+      "quantity": 479,
+      "unit_price": 170.43,
+      "raw_ocr_text": null,
+      "extracted_json": null,
+      "_scenario": "quantity_mismatch"
+    },
+    {
+      "id": 117,
+      "invoice_number": "INV-58571795",
+      "vendor_id": 15,
+      "po_number": "PO-100106",
+      "amount": 12579.84,
+      "quantity": 78,
+      "unit_price": 161.28,
+      "raw_ocr_text": null,
+      "extracted_json": null,
+      "_scenario": "quantity_mismatch"
+    },
+    {
+      "id": 118,
+      "invoice_number": "INV-68642041",
+      "vendor_id": 17,
+      "po_number": "PO-100107",
+      "amount": 35848.56,
+      "quantity": 296,
+      "unit_price": 121.11,
+      "raw_ocr_text": null,
+      "extracted_json": null,
+      "_scenario": "quantity_mismatch"
+    },
+    {
+      "id": 119,
+      "invoice_number": "INV-51700055",
+      "vendor_id": 15,
+      "po_number": "PO-100108",
+      "amount": 60891.7985,
+      "quantity": 323,
+      "unit_price": 163.93,
+      "raw_ocr_text": null,
+      "extracted_json": null,
+      "_scenario": "amount_mismatch"
+    },
+    {
+      "id": 120,
+      "invoice_number": "INV-25511941",
+      "vendor_id": 17,
+      "po_number": "PO-100109",
+      "amount": 38066.88,
+      "quantity": 228,
+      "unit_price": 166.96,
+      "raw_ocr_text": null,
+      "extracted_json": null,
+      "_scenario": "clean_match"
+    },
+    {
+      "id": 121,
+      "invoice_number": "INV-5957459",
+      "vendor_id": 18,
+      "po_number": "PO-100110",
+      "amount": 42830.48,
+      "quantity": 238,
+      "unit_price": 179.96,
+      "raw_ocr_text": null,
+      "extracted_json": null,
+      "_scenario": "clean_match"
+    },
+    {
+      "id": 122,
+      "invoice_number": "INV-226999",
+      "vendor_id": 16,
+      "po_number": "PO-100111",
+      "amount": 13329.6,
+      "quantity": 240,
+      "unit_price": 55.54,
+      "raw_ocr_text": null,
+      "extracted_json": null,
+      "_scenario": "clean_match"
+    },
+    {
+      "id": 123,
+      "invoice_number": "INV-72269803",
+      "vendor_id": 8,
+      "po_number": "PO-100112",
+      "amount": 56909.6,
+      "quantity": 440,
+      "unit_price": 129.34,
+      "raw_ocr_text": null,
+      "extracted_json": null,
+      "_scenario": "clean_match"
+    },
+    {
+      "id": 124,
+      "invoice_number": "INV-48884978",
+      "vendor_id": 17,
+      "po_number": "PO-100113",
+      "amount": 32822.76,
+      "quantity": 258,
+      "unit_price": 127.22,
+      "raw_ocr_text": null,
+      "extracted_json": null,
+      "_scenario": "clean_match"
+    },
+    {
+      "id": 125,
+      "invoice_number": "INV-57887757",
+      "vendor_id": 9,
+      "po_number": "PO-900125",
+      "amount": 1375.63,
+      "quantity": 50,
+      "unit_price": 27.51,
+      "raw_ocr_text": null,
+      "extracted_json": null,
+      "_scenario": "no_matching_po"
+    },
+    {
+      "id": 126,
+      "invoice_number": "INV-89152472",
+      "vendor_id": 10,
+      "po_number": "PO-100114",
+      "amount": 8668.01,
+      "quantity": 130,
+      "unit_price": 57.98,
+      "raw_ocr_text": null,
+      "extracted_json": null,
+      "_scenario": "amount_mismatch"
+    },
+    {
+      "id": 127,
+      "invoice_number": "INV-83638503",
+      "vendor_id": 11,
+      "po_number": "PO-100115",
+      "amount": 51524.11,
+      "quantity": 467,
+      "unit_price": 110.33,
+      "raw_ocr_text": null,
+      "extracted_json": null,
+      "_scenario": "clean_match"
+    },
+    {
+      "id": 128,
+      "invoice_number": "INV-89038359",
+      "vendor_id": 5,
+      "po_number": "PO-100116",
+      "amount": 4358.7,
+      "quantity": 87,
+      "unit_price": 50.1,
+      "raw_ocr_text": null,
+      "extracted_json": null,
+      "_scenario": "clean_match"
+    },
+    {
+      "id": 129,
+      "invoice_number": "INV-96603781",
+      "vendor_id": 5,
+      "po_number": "PO-100117",
+      "amount": 17333.12,
+      "quantity": 371,
+      "unit_price": 46.72,
+      "raw_ocr_text": null,
+      "extracted_json": null,
+      "_scenario": "clean_match"
+    },
+    {
+      "id": 130,
+      "invoice_number": "INV-68064830",
+      "vendor_id": 14,
+      "po_number": "PO-100118",
+      "amount": 15155.36,
+      "quantity": 218,
+      "unit_price": 69.52,
+      "raw_ocr_text": null,
+      "extracted_json": null,
+      "_scenario": "clean_match"
+    },
+    {
+      "id": 131,
+      "invoice_number": "INV-89508850",
+      "vendor_id": 15,
+      "po_number": "PO-100119",
+      "amount": 3805.08,
+      "quantity": 222,
+      "unit_price": 17.14,
+      "raw_ocr_text": null,
+      "extracted_json": null,
+      "_scenario": "clean_match"
+    },
+    {
+      "id": 132,
+      "invoice_number": "INV-43779528",
+      "vendor_id": 14,
+      "po_number": "PO-100120",
+      "amount": 37920.96,
+      "quantity": 209,
+      "unit_price": 181.44,
+      "raw_ocr_text": null,
+      "extracted_json": null,
+      "_scenario": "clean_match"
+    },
+    {
+      "id": 133,
+      "invoice_number": "INV-93577729",
+      "vendor_id": 19,
+      "po_number": "PO-100121",
+      "amount": 69471.22,
+      "quantity": 494,
+      "unit_price": 140.63,
+      "raw_ocr_text": null,
+      "extracted_json": null,
+      "_scenario": "clean_match"
+    },
+    {
+      "id": 134,
+      "invoice_number": "INV-74411983",
+      "vendor_id": 19,
+      "po_number": "PO-100122",
+      "amount": 22993.146,
+      "quantity": 204,
+      "unit_price": 98.01,
+      "raw_ocr_text": null,
+      "extracted_json": null,
+      "_scenario": "amount_mismatch"
+    },
+    {
+      "id": 135,
+      "invoice_number": "INV-27326368",
+      "vendor_id": 12,
+      "po_number": "PO-100123",
+      "amount": 24612.66,
+      "quantity": 162,
+      "unit_price": 151.93,
+      "raw_ocr_text": null,
+      "extracted_json": null,
+      "_scenario": "duplicate"
+    },
+    {
+      "id": 136,
+      "invoice_number": "INV-56431351",
+      "vendor_id": 18,
+      "po_number": "PO-900136",
+      "amount": 2267.8,
+      "quantity": 39,
+      "unit_price": 58.15,
+      "raw_ocr_text": null,
+      "extracted_json": null,
+      "_scenario": "no_matching_po"
+    },
+    {
+      "id": 137,
+      "invoice_number": "INV-50888017",
+      "vendor_id": 20,
+      "po_number": "PO-100124",
+      "amount": 22516.69,
+      "quantity": 469,
+      "unit_price": 48.01,
+      "raw_ocr_text": null,
+      "extracted_json": null,
+      "_scenario": "clean_match"
+    },
+    {
+      "id": 138,
+      "invoice_number": "INV-54547971",
+      "vendor_id": 8,
+      "po_number": "PO-100125",
+      "amount": 13408.51,
+      "quantity": 149,
+      "unit_price": 89.99,
+      "raw_ocr_text": null,
+      "extracted_json": null,
+      "_scenario": "duplicate"
+    },
+    {
+      "id": 139,
+      "invoice_number": "INV-40392808",
+      "vendor_id": 13,
+      "po_number": "PO-100126",
+      "amount": 24648.26,
+      "quantity": 182,
+      "unit_price": 135.43,
+      "raw_ocr_text": null,
+      "extracted_json": null,
+      "_scenario": "quantity_mismatch"
+    },
+    {
+      "id": 140,
+      "invoice_number": "INV-73542887",
+      "vendor_id": 13,
+      "po_number": "PO-100127",
+      "amount": 14128.4,
+      "quantity": 380,
+      "unit_price": 37.18,
+      "raw_ocr_text": null,
+      "extracted_json": null,
+      "_scenario": "clean_match"
+    },
+    {
+      "id": 141,
+      "invoice_number": "INV-40785405",
+      "vendor_id": 15,
+      "po_number": "PO-100128",
+      "amount": 14347.2,
+      "quantity": 480,
+      "unit_price": 29.89,
+      "raw_ocr_text": null,
+      "extracted_json": null,
+      "_scenario": "clean_match"
+    },
+    {
+      "id": 142,
+      "invoice_number": "INV-38508907",
+      "vendor_id": 20,
+      "po_number": "PO-900142",
+      "amount": 1648.96,
+      "quantity": 30,
+      "unit_price": 54.97,
+      "raw_ocr_text": null,
+      "extracted_json": null,
+      "_scenario": "no_matching_po"
+    },
+    {
+      "id": 143,
+      "invoice_number": "INV-57698610",
+      "vendor_id": 19,
+      "po_number": "PO-100129",
+      "amount": 40015.44,
+      "quantity": 298,
+      "unit_price": 134.28,
+      "raw_ocr_text": null,
+      "extracted_json": null,
+      "_scenario": "clean_match"
+    },
+    {
+      "id": 144,
+      "invoice_number": "INV-81424737",
+      "vendor_id": 3,
+      "po_number": "PO-100130",
+      "amount": 30028.62,
+      "quantity": 339,
+      "unit_price": 88.58,
+      "raw_ocr_text": null,
+      "extracted_json": null,
+      "_scenario": "clean_match"
+    },
+    {
+      "id": 145,
+      "invoice_number": "INV-43251559",
+      "vendor_id": 15,
+      "po_number": "PO-100131",
+      "amount": 1525.43,
+      "quantity": 103,
+      "unit_price": 14.81,
+      "raw_ocr_text": null,
+      "extracted_json": null,
+      "_scenario": "clean_match"
+    },
+    {
+      "id": 146,
+      "invoice_number": "INV-59295515",
+      "vendor_id": 13,
+      "po_number": "PO-100132",
+      "amount": 8189.79,
+      "quantity": 177,
+      "unit_price": 46.27,
+      "raw_ocr_text": null,
+      "extracted_json": null,
+      "_scenario": "clean_match"
+    },
+    {
+      "id": 147,
+      "invoice_number": "INV-90681152",
+      "vendor_id": 11,
+      "po_number": "PO-100133",
+      "amount": 27926.08,
+      "quantity": 182,
+      "unit_price": 153.44,
+      "raw_ocr_text": null,
+      "extracted_json": null,
+      "_scenario": "quantity_mismatch"
+    },
+    {
+      "id": 148,
+      "invoice_number": "INV-68608612",
+      "vendor_id": 13,
+      "po_number": "PO-100134",
+      "amount": 23049.28,
+      "quantity": 152,
+      "unit_price": 151.64,
+      "raw_ocr_text": null,
+      "extracted_json": null,
+      "_scenario": "clean_match"
+    },
+    {
+      "id": 149,
+      "invoice_number": "INV-98779073",
+      "vendor_id": 14,
+      "po_number": "PO-100135",
+      "amount": 23325.59,
+      "quantity": 139,
+      "unit_price": 167.81,
+      "raw_ocr_text": null,
+      "extracted_json": null,
+      "_scenario": "clean_match"
+    },
+    {
+      "id": 150,
+      "invoice_number": "INV-88429450",
+      "vendor_id": 16,
+      "po_number": "PO-100136",
+      "amount": 2870.14,
+      "quantity": 19,
+      "unit_price": 151.06,
+      "raw_ocr_text": null,
+      "extracted_json": null,
+      "_scenario": "clean_match"
+    },
+    {
+      "id": 151,
+      "invoice_number": "INV-38089166",
+      "vendor_id": 2,
+      "po_number": "PO-100137",
+      "amount": 36400.28,
+      "quantity": 497,
+      "unit_price": 73.24,
+      "raw_ocr_text": null,
+      "extracted_json": null,
+      "_scenario": "quantity_mismatch"
+    },
+    {
+      "id": 152,
+      "invoice_number": "INV-89100953",
+      "vendor_id": 3,
+      "po_number": "PO-100138",
+      "amount": 90151.9845,
+      "quantity": 409,
+      "unit_price": 191.67,
+      "raw_ocr_text": null,
+      "extracted_json": null,
+      "_scenario": "amount_mismatch"
+    },
+    {
+      "id": 153,
+      "invoice_number": "INV-83115778",
+      "vendor_id": 2,
+      "po_number": "PO-100139",
+      "amount": 4375.8,
+      "quantity": 396,
+      "unit_price": 11.05,
+      "raw_ocr_text": null,
+      "extracted_json": null,
+      "_scenario": "clean_match"
+    },
+    {
+      "id": 154,
+      "invoice_number": "INV-12534217",
+      "vendor_id": 8,
+      "po_number": "PO-100140",
+      "amount": 18888.8,
+      "quantity": 112,
+      "unit_price": 168.65,
+      "raw_ocr_text": null,
+      "extracted_json": null,
+      "_scenario": "clean_match"
+    },
+    {
+      "id": 155,
+      "invoice_number": "INV-90301106",
+      "vendor_id": 20,
+      "po_number": "PO-100141",
+      "amount": 4533.76,
+      "quantity": 88,
+      "unit_price": 51.52,
+      "raw_ocr_text": null,
+      "extracted_json": null,
+      "_scenario": "clean_match"
+    },
+    {
+      "id": 156,
+      "invoice_number": "INV-30150759",
+      "vendor_id": 16,
+      "po_number": "PO-100142",
+      "amount": 9613.12,
+      "quantity": 352,
+      "unit_price": 27.31,
+      "raw_ocr_text": null,
+      "extracted_json": null,
+      "_scenario": "clean_match"
+    },
+    {
+      "id": 157,
+      "invoice_number": "INV-19777514",
+      "vendor_id": 7,
+      "po_number": "PO-100143",
+      "amount": 35067.2,
+      "quantity": 248,
+      "unit_price": 141.4,
+      "raw_ocr_text": null,
+      "extracted_json": null,
+      "_scenario": "clean_match"
+    },
+    {
+      "id": 158,
+      "invoice_number": "INV-6202700",
+      "vendor_id": 12,
+      "po_number": "PO-100144",
+      "amount": 11699.25,
+      "quantity": 95,
+      "unit_price": 123.15,
+      "raw_ocr_text": null,
+      "extracted_json": null,
+      "_scenario": "clean_match"
+    },
+    {
+      "id": 159,
+      "invoice_number": "INV-38250360",
+      "vendor_id": 4,
+      "po_number": "PO-100145",
+      "amount": 67222.08,
+      "quantity": 408,
+      "unit_price": 164.76,
+      "raw_ocr_text": null,
+      "extracted_json": null,
+      "_scenario": "duplicate"
+    },
+    {
+      "id": 160,
+      "invoice_number": "INV-38250360",
+      "vendor_id": 4,
+      "po_number": "PO-100146",
+      "amount": 3063.06,
+      "quantity": 306,
+      "unit_price": 10.01,
+      "raw_ocr_text": null,
+      "extracted_json": null,
+      "_scenario": "duplicate"
+    },
+    {
+      "id": 161,
+      "invoice_number": "INV-55625330",
+      "vendor_id": 19,
+      "po_number": "PO-100147",
+      "amount": 64816.92,
+      "quantity": 356,
+      "unit_price": 182.07,
+      "raw_ocr_text": null,
+      "extracted_json": null,
+      "_scenario": "clean_match"
+    },
+    {
+      "id": 162,
+      "invoice_number": "INV-15480907",
+      "vendor_id": 13,
+      "po_number": "PO-100148",
+      "amount": 40169.67,
+      "quantity": 213,
+      "unit_price": 188.59,
+      "raw_ocr_text": null,
+      "extracted_json": null,
+      "_scenario": "duplicate"
+    },
+    {
+      "id": 163,
+      "invoice_number": "INV-96414756",
+      "vendor_id": 3,
+      "po_number": "PO-100149",
+      "amount": 43716.71,
+      "quantity": 313,
+      "unit_price": 139.67,
+      "raw_ocr_text": null,
+      "extracted_json": null,
+      "_scenario": "clean_match"
+    },
+    {
+      "id": 164,
+      "invoice_number": "INV-93463085",
+      "vendor_id": 8,
+      "po_number": "PO-900164",
+      "amount": 395.51,
+      "quantity": 24,
+      "unit_price": 16.48,
+      "raw_ocr_text": null,
+      "extracted_json": null,
+      "_scenario": "no_matching_po"
+    },
+    {
+      "id": 165,
+      "invoice_number": "INV-66354180",
+      "vendor_id": 20,
+      "po_number": "PO-100150",
+      "amount": 12073.42,
+      "quantity": 422,
+      "unit_price": 28.61,
+      "raw_ocr_text": null,
+      "extracted_json": null,
+      "_scenario": "clean_match"
+    },
+    {
+      "id": 166,
+      "invoice_number": "INV-93577729",
+      "vendor_id": 19,
+      "po_number": "PO-100151",
+      "amount": 5334.1,
+      "quantity": 410,
+      "unit_price": 13.01,
+      "raw_ocr_text": null,
+      "extracted_json": null,
+      "_scenario": "duplicate"
+    },
+    {
+      "id": 167,
+      "invoice_number": "INV-88054615",
+      "vendor_id": 14,
+      "po_number": "PO-100152",
+      "amount": 26886.48,
+      "quantity": 348,
+      "unit_price": 77.26,
+      "raw_ocr_text": null,
+      "extracted_json": null,
+      "_scenario": "clean_match"
+    },
+    {
+      "id": 168,
+      "invoice_number": "INV-14305904",
+      "vendor_id": 17,
+      "po_number": "PO-100153",
+      "amount": 24395.14,
+      "quantity": 341,
+      "unit_price": 71.54,
+      "raw_ocr_text": null,
+      "extracted_json": null,
+      "_scenario": "clean_match"
+    },
+    {
+      "id": 169,
+      "invoice_number": "INV-29372360",
+      "vendor_id": 14,
+      "po_number": "PO-100154",
+      "amount": 43354.29,
+      "quantity": 431,
+      "unit_price": 100.59,
+      "raw_ocr_text": null,
+      "extracted_json": null,
+      "_scenario": "clean_match"
+    },
+    {
+      "id": 170,
+      "invoice_number": "INV-23607110",
+      "vendor_id": 14,
+      "po_number": "PO-900170",
+      "amount": 2886.28,
+      "quantity": 45,
+      "unit_price": 64.14,
+      "raw_ocr_text": null,
+      "extracted_json": null,
+      "_scenario": "no_matching_po"
+    },
+    {
+      "id": 171,
+      "invoice_number": "INV-62350830",
+      "vendor_id": 15,
+      "po_number": "PO-100155",
+      "amount": 14900.274,
+      "quantity": 372,
+      "unit_price": 34.83,
+      "raw_ocr_text": null,
+      "extracted_json": null,
+      "_scenario": "amount_mismatch"
+    },
+    {
+      "id": 172,
+      "invoice_number": "INV-74813739",
+      "vendor_id": 6,
+      "po_number": "PO-100156",
+      "amount": 41094.9,
+      "quantity": 385,
+      "unit_price": 106.74,
+      "raw_ocr_text": null,
+      "extracted_json": null,
+      "_scenario": "clean_match"
+    },
+    {
+      "id": 173,
+      "invoice_number": "INV-16288475",
+      "vendor_id": 9,
+      "po_number": "PO-100157",
+      "amount": 52845.0,
+      "quantity": 325,
+      "unit_price": 162.6,
+      "raw_ocr_text": null,
+      "extracted_json": null,
+      "_scenario": "clean_match"
+    },
+    {
+      "id": 174,
+      "invoice_number": "INV-54543049",
+      "vendor_id": 18,
+      "po_number": "PO-100158",
+      "amount": 40307.68,
+      "quantity": 406,
+      "unit_price": 99.28,
+      "raw_ocr_text": null,
+      "extracted_json": null,
+      "_scenario": "duplicate"
+    },
+    {
+      "id": 175,
+      "invoice_number": "INV-62363359",
+      "vendor_id": 19,
+      "po_number": "PO-900175",
+      "amount": 878.35,
+      "quantity": 20,
+      "unit_price": 43.92,
+      "raw_ocr_text": null,
+      "extracted_json": null,
+      "_scenario": "no_matching_po"
+    },
+    {
+      "id": 176,
+      "invoice_number": "INV-75017682",
+      "vendor_id": 3,
+      "po_number": "PO-100159",
+      "amount": 26891.84,
+      "quantity": 152,
+      "unit_price": 176.92,
+      "raw_ocr_text": null,
+      "extracted_json": null,
+      "_scenario": "clean_match"
+    },
+    {
+      "id": 177,
+      "invoice_number": "INV-42587010",
+      "vendor_id": 8,
+      "po_number": "PO-100160",
+      "amount": 37674.28,
+      "quantity": 394,
+      "unit_price": 95.62,
+      "raw_ocr_text": null,
+      "extracted_json": null,
+      "_scenario": "quantity_mismatch"
+    },
+    {
+      "id": 178,
+      "invoice_number": "INV-82097999",
+      "vendor_id": 20,
+      "po_number": "PO-100161",
+      "amount": 27772.8,
+      "quantity": 352,
+      "unit_price": 78.9,
+      "raw_ocr_text": null,
+      "extracted_json": null,
+      "_scenario": "duplicate"
+    },
+    {
+      "id": 179,
+      "invoice_number": "INV-96539316",
+      "vendor_id": 16,
+      "po_number": "PO-900179",
+      "amount": 2567.76,
+      "quantity": 16,
+      "unit_price": 160.49,
+      "raw_ocr_text": null,
+      "extracted_json": null,
+      "_scenario": "no_matching_po"
+    },
+    {
+      "id": 180,
+      "invoice_number": "INV-57276174",
+      "vendor_id": 16,
+      "po_number": "PO-100162",
+      "amount": 10067.583,
+      "quantity": 118,
+      "unit_price": 74.19,
+      "raw_ocr_text": null,
+      "extracted_json": null,
+      "_scenario": "amount_mismatch"
+    },
+    {
+      "id": 181,
+      "invoice_number": "INV-59849511",
+      "vendor_id": 9,
+      "po_number": "PO-100163",
+      "amount": 10953.52,
+      "quantity": 184,
+      "unit_price": 59.53,
+      "raw_ocr_text": null,
+      "extracted_json": null,
+      "_scenario": "clean_match"
+    },
+    {
+      "id": 182,
+      "invoice_number": "INV-99811743",
+      "vendor_id": 20,
+      "po_number": "PO-100164",
+      "amount": 65172.78,
+      "quantity": 369,
+      "unit_price": 176.62,
+      "raw_ocr_text": null,
+      "extracted_json": null,
+      "_scenario": "clean_match"
+    },
+    {
+      "id": 183,
+      "invoice_number": "INV-60407340",
+      "vendor_id": 18,
+      "po_number": "PO-100165",
+      "amount": 1586.1,
+      "quantity": 15,
+      "unit_price": 105.74,
+      "raw_ocr_text": null,
+      "extracted_json": null,
+      "_scenario": "clean_match"
+    },
+    {
+      "id": 184,
+      "invoice_number": "INV-33183955",
+      "vendor_id": 7,
+      "po_number": "PO-100166",
+      "amount": 2759.18,
+      "quantity": 53,
+      "unit_price": 52.06,
+      "raw_ocr_text": null,
+      "extracted_json": null,
+      "_scenario": "clean_match"
+    },
+    {
+      "id": 185,
+      "invoice_number": "INV-37220099",
+      "vendor_id": 14,
+      "po_number": "PO-100167",
+      "amount": 29447.6,
+      "quantity": 260,
+      "unit_price": 113.26,
+      "raw_ocr_text": null,
+      "extracted_json": null,
+      "_scenario": "clean_match"
+    },
+    {
+      "id": 186,
+      "invoice_number": "INV-65041510",
+      "vendor_id": 8,
+      "po_number": "PO-100168",
+      "amount": 35515.92,
+      "quantity": 363,
+      "unit_price": 97.84,
+      "raw_ocr_text": null,
+      "extracted_json": null,
+      "_scenario": "clean_match"
+    },
+    {
+      "id": 187,
+      "invoice_number": "INV-84120751",
+      "vendor_id": 16,
+      "po_number": "PO-900187",
+      "amount": 1399.71,
+      "quantity": 6,
+      "unit_price": 233.28,
+      "raw_ocr_text": null,
+      "extracted_json": null,
+      "_scenario": "no_matching_po"
+    },
+    {
+      "id": 188,
+      "invoice_number": "INV-36855845",
+      "vendor_id": 3,
+      "po_number": "PO-100169",
+      "amount": 7713.6,
+      "quantity": 160,
+      "unit_price": 48.21,
+      "raw_ocr_text": null,
+      "extracted_json": null,
+      "_scenario": "clean_match"
+    },
+    {
+      "id": 189,
+      "invoice_number": "INV-10399639",
+      "vendor_id": 8,
+      "po_number": "PO-100170",
+      "amount": 22322.02,
+      "quantity": 166,
+      "unit_price": 134.47,
+      "raw_ocr_text": null,
+      "extracted_json": null,
+      "_scenario": "quantity_mismatch"
+    },
+    {
+      "id": 190,
+      "invoice_number": "INV-31473195",
+      "vendor_id": 12,
+      "po_number": "PO-100171",
+      "amount": 28458.36,
+      "quantity": 252,
+      "unit_price": 112.93,
+      "raw_ocr_text": null,
+      "extracted_json": null,
+      "_scenario": "closed_po"
+    },
+    {
+      "id": 191,
+      "invoice_number": "INV-45076693",
+      "vendor_id": 12,
+      "po_number": "PO-100172",
+      "amount": 45250.18,
+      "quantity": 227,
+      "unit_price": 199.34,
+      "raw_ocr_text": null,
+      "extracted_json": null,
+      "_scenario": "clean_match"
+    },
+    {
+      "id": 192,
+      "invoice_number": "INV-89913412",
+      "vendor_id": 18,
+      "po_number": "PO-100173",
+      "amount": 13174.4,
+      "quantity": 179,
+      "unit_price": 73.6,
+      "raw_ocr_text": null,
+      "extracted_json": null,
+      "_scenario": "duplicate"
+    },
+    {
+      "id": 193,
+      "invoice_number": "INV-18572252",
+      "vendor_id": 9,
+      "po_number": "PO-100174",
+      "amount": 8967.32,
+      "quantity": 166,
+      "unit_price": 54.02,
+      "raw_ocr_text": null,
+      "extracted_json": null,
+      "_scenario": "clean_match"
+    },
+    {
+      "id": 194,
+      "invoice_number": "INV-31039390",
+      "vendor_id": 4,
+      "po_number": "PO-100175",
+      "amount": 16126.45,
+      "quantity": 379,
+      "unit_price": 42.55,
+      "raw_ocr_text": null,
+      "extracted_json": null,
+      "_scenario": "clean_match"
+    },
+    {
+      "id": 195,
+      "invoice_number": "INV-93140367",
+      "vendor_id": 4,
+      "po_number": "PO-100176",
+      "amount": 42701.1,
+      "quantity": 390,
+      "unit_price": 109.49,
+      "raw_ocr_text": null,
+      "extracted_json": null,
+      "_scenario": "clean_match"
+    },
+    {
+      "id": 196,
+      "invoice_number": "INV-94813972",
+      "vendor_id": 6,
+      "po_number": "PO-100177",
+      "amount": 5097.6,
+      "quantity": 108,
+      "unit_price": 47.2,
+      "raw_ocr_text": null,
+      "extracted_json": null,
+      "_scenario": "clean_match"
+    },
+    {
+      "id": 197,
+      "invoice_number": "INV-84120751",
+      "vendor_id": 16,
+      "po_number": "PO-100178",
+      "amount": 22089.79,
+      "quantity": 151,
+      "unit_price": 146.29,
+      "raw_ocr_text": null,
+      "extracted_json": null,
+      "_scenario": "duplicate"
+    },
+    {
+      "id": 198,
+      "invoice_number": "INV-54707061",
+      "vendor_id": 20,
+      "po_number": "PO-100179",
+      "amount": 30214.8,
+      "quantity": 154,
+      "unit_price": 196.2,
+      "raw_ocr_text": null,
+      "extracted_json": null,
+      "_scenario": "clean_match"
+    },
+    {
+      "id": 199,
+      "invoice_number": "INV-72828034",
+      "vendor_id": 7,
+      "po_number": "PO-100180",
+      "amount": 7946.96,
+      "quantity": 161,
+      "unit_price": 49.36,
+      "raw_ocr_text": null,
+      "extracted_json": null,
+      "_scenario": "clean_match"
+    },
+    {
+      "id": 200,
+      "invoice_number": "INV-62535301",
+      "vendor_id": 6,
+      "po_number": "PO-900200",
+      "amount": 976.58,
+      "quantity": 50,
+      "unit_price": 19.53,
+      "raw_ocr_text": null,
+      "extracted_json": null,
+      "_scenario": "no_matching_po"
+    }
+  ]
+}
